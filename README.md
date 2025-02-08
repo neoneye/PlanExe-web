@@ -1,6 +1,4 @@
-# Website for PlanExe
-
-https://github.com/neoneye/PlanExe
+[https://github.com/neoneye/PlanExe](https://github.com/neoneye/PlanExe)
 
 ---
 
