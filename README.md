@@ -1,6 +1,6 @@
 [https://github.com/neoneye/PlanExe](https://github.com/neoneye/PlanExe)
 
-[PlanExe Discord](https://discord.gg/RXQmnxsqAA)
+[PlanExe Discord](https://neoneye.github.io/PlanExe-web/discord)
 
 ---
 
