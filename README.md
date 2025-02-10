@@ -29,3 +29,9 @@ Manned moon mission, for establishing a permanent base.
 I want to make a restaurant for puzzle solving happy people. An important part is that humans are solving puzzles with each other. While having something to drink and eat.
 
 [20250209_puzzle_restaurant.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250209_puzzle_restaurant.zip)
+
+## Arxiv distillation
+
+Distill Arxiv papers into an objective, hype-free summary that indicates whether improvements are truly significant or just noise. Compare claims with benchmarks, flag inflated gains, and foster a clear, evidence-based understanding of machine learning progress without marketing language. To make the distilled data available with minimal upkeep and maximum longevity, publish these summaries as an open-access dataset on a well-established repository.
+
+[20250210_arxiv_distillation.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250210_arxiv_distillation.zip)
