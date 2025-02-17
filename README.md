@@ -35,3 +35,9 @@ I want to make a restaurant for puzzle solving happy people. An important part i
 Distill Arxiv papers into an objective, hype-free summary that indicates whether improvements are truly significant or just noise. Compare claims with benchmarks, flag inflated gains, and foster a clear, evidence-based understanding of machine learning progress without marketing language. To make the distilled data available with minimal upkeep and maximum longevity, publish these summaries as an open-access dataset on a well-established repository.
 
 [20250210_arxiv_distillation.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250210_arxiv_distillation.zip)
+
+## Skeleton display
+
+When I die, I want to become a skeleton, skull and bones. I love zombies.
+
+[20250217_skeleton_display.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250217_skeleton_display.zip)
