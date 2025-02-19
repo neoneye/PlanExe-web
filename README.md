@@ -32,12 +32,6 @@ I want to make a restaurant for puzzle solving happy people. An important part i
 
 [20250209_puzzle_restaurant.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250209_puzzle_restaurant.zip)
 
-## US-Mexico canal
-
-US-Mexico canal. I want to build a canal along USA's southern border to mexico, so that containers no longer have to go all the way to Panama. Also this would help with southern border security.
-
-[20250208_us_mexico_canal.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250208_us_mexico_canal.zip)
-
 ## Lunar base
 
 Manned moon mission, for establishing a permanent base.
@@ -50,3 +44,8 @@ I'm envisioning a streamlined global language—free of archaic features like ge
 
 [20250209_global_language.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250209_global_language.zip)
 
+## US-Mexico canal
+
+US-Mexico canal. I want to build a canal along USA's southern border to mexico, so that containers no longer have to go all the way to Panama. Also this would help with southern border security.
+
+[20250208_us_mexico_canal.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250208_us_mexico_canal.zip)
