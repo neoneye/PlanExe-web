@@ -1,8 +1,8 @@
 title: PlanExe
 
-theme: minima
+#theme: minima
 
 # Minima specific settings.
-minima:
-  skin: classic
+#minima:
+#  skin: classic
 
