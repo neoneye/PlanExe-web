@@ -3,6 +3,10 @@ remote_theme: jekyll/minima
 title: PlanExe
 description: "PlanExe transforms your idea into a plan."
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # Minima specific settings.
 minima:
   skin: auto
