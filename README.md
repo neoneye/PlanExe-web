@@ -41,3 +41,9 @@ Distill Arxiv papers into an objective, hype-free summary that indicates whether
 When I die, I want to become a skeleton, skull and bones. I love zombies.
 
 [20250217_skeleton_display.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250217_skeleton_display.zip)
+
+## Clean water
+
+Implement a comprehensive strategy for providing clean water to areas where it is currently unavailable. Your solution should include infrastructure development for water purification, distribution, and ongoing maintenance, and clarify if you are upgrading existing systems or building new ones from scratch. Assume this project will serve 2 million people in rural areas over 3 years with a total budget of 200 million USD.
+
+[20250219_clean_water.zip](https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250219_clean_water.zip)
