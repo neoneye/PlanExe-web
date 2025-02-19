@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: jekyll/minima
 
 title: PlanExe
 description: "PlanExe transforms your idea into a plan."
