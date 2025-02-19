@@ -1,15 +1,16 @@
+theme: minima
+
 title: PlanExe
-
-
-remote_theme: jekyll/minima
-plugins:
-  - jekyll-remote-theme
-minima:
-  skin: dark
-
-#theme: minima
+description: "PlanExe transforms your idea into a plan."
 
 # Minima specific settings.
-#minima:
-#  skin: classic
+minima:
+  skin: auto
+  social_links:
+    - title: PlanExe repository at GitHub
+      icon: github
+      url: "https://github.com/neoneye/PlanExe"
 
+author:
+  name: Simon Strandgaard
+  email: neoneye@gmail.com
