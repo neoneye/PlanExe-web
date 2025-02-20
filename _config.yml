@@ -22,3 +22,10 @@ show_excerpts: true
 author:
   name: Simon Strandgaard
   email: neoneye@gmail.com
+
+header_pages:
+  - about.md
+
+exclude:
+  - github_pages.md
+  - README.md
