@@ -27,5 +27,4 @@ header_pages:
   - github.md
 
 exclude:
-  - github_pages.md
   - README.md
