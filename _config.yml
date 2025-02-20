@@ -5,16 +5,14 @@ description: "PlanExe transforms your idea into a plan."
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Minima specific settings.
 minima:
   skin: auto
   date_format: "%Y-%m-%d"
-  social_links:
-    - title: PlanExe repository at GitHub
-      icon: github
-      url: "https://github.com/neoneye/PlanExe"
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
@@ -25,6 +23,8 @@ author:
 
 header_pages:
   - about.md
+  - discord.md
+  - github.md
 
 exclude:
   - github_pages.md
