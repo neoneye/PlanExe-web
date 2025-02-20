@@ -112,6 +112,6 @@ and in the `clean` file the field may have a cleaned up field name.
 
 ### What is the `log.txt` file?
 
-This is a output from python's logger with `DEBUG` level.
+This is the output from python's logger with `DEBUG` level.
 It may be helpful when troubleshooting.
 It may contain sensitive data such as your API keys, IP address. So don't share it with anyone.
