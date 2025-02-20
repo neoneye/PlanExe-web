@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Welcome to PlanExe
+title: Transform your ideas into actionable plans
 ---
 
-[https://github.com/neoneye/PlanExe](https://github.com/neoneye/PlanExe)
+PlanExe is a free and open-source planning assistant.
 
-[PlanExe Discord](https://neoneye.github.io/PlanExe-web/discord)
+Describe your project, run PlanExe for 5-10 minutes and watch it generate a detailed plan.
 
-# Plan made with PlanExe
+# Featured Use Case
 
 ## Clean water
 

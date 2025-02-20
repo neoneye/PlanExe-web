@@ -1,7 +1,7 @@
 remote_theme: jekyll/minima
 
 title: PlanExe
-description: "PlanExe transforms your idea into a plan."
+description: "PlanExe: Transform your ideas into actionable plans."
 
 plugins:
   - jekyll-feed
