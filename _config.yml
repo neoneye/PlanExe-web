@@ -14,17 +14,18 @@ minima:
   skin: auto
   date_format: "%Y-%m-%d"
 
+minima:
+  nav_pages:
+    - use-cases.md
+    - discord.md
+    - github.md
+
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
 author:
   name: Simon Strandgaard
   email: neoneye@gmail.com
-
-header_pages:
-  - use-cases.md
-  - discord.md
-  - github.md
 
 exclude:
   - README.md
