@@ -6,7 +6,7 @@ permalink: /use-cases/
 
 The most recent plans made with PlanExe. The `zip` files contains several files of these types: `json`, `markdown`, `csv`, `html`.
 
-## 555 Project - China/Russian lunar base
+## 555 Project - China/Russia lunar base
 
 Establish the China–Russia International Lunar Research Station’s “555 Project”: recruit 50 nations, 500 institutions and 5 000 scientists willing to operate under a Beijing-Roscosmos governance charter; integrate autonomous construction tech, in-situ resource utilisation, and a modular surface fission reactor; prioritise BRICS +, Global South and neutral European partners while offering conditional seats to Western entities that can navigate U.S./EU export-control waivers, share IP openly, and adhere to non-weaponisation clauses; phase milestones—proposal vetting Q4 2025, Chang’e-8 demo 2028, robotic cargo landings 2030, reactor activation 2033, continuous crew rotations by 2035—funded via Chinese central allocations, Roscosmos launch barter, Belt-and-Road aerospace credits and participant cost-shares.
 
