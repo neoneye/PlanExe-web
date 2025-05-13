@@ -16,25 +16,6 @@ PlanExe transforms abstract ideas into comprehensive, actionable plans.
 {% endfor %}
 
 
-## Clean water
-
-Implement a comprehensive strategy for providing clean water to areas where it is currently unavailable. Your solution should include infrastructure development for water purification, distribution, and ongoing maintenance, and clarify if you are upgrading existing systems or building new ones from scratch. Assume this project will serve 2 million people in rural areas over 3 years with a total budget of 200 million USD.
-
-[View Report](20250219_clean_water_report.html)
-
-## OPC Eradication
-
-Eradication of Oak Processionary Caterpillars. It was discovered in Denmark for the first time just under three weeks ago, with around 800 nests found in trees in southeastern Odense. You suffocate from the caterpillar’s toxic hairs.
-Limit the outbreak as quick as possible.
-
-[View Report](20250220_opc_eradication_report.html)
-
-## Skeleton display
-
-When I die, I want to become a skeleton, skull and bones. I love zombies.
-
-[View Report](20250217_skeleton_display_report.html)
-
 ## Arxiv distillation
 
 Distill Arxiv papers into an objective, hype-free summary that indicates whether improvements are truly significant or just noise. Compare claims with benchmarks, flag inflated gains, and foster a clear, evidence-based understanding of machine learning progress without marketing language. To make the distilled data available with minimal upkeep and maximum longevity, publish these summaries as an open-access dataset on a well-established repository.
