@@ -16,27 +16,6 @@ PlanExe transforms abstract ideas into comprehensive, actionable plans.
 {% endfor %}
 
 
-## EU Digital Sovereignty
-
-Develop a pan-European strategic program, triggered by heightened geopolitical risks circa April 2025, to migrate critical digital infrastructure away from US-controlled providers, aiming for substantial completion by 2035 (approx. 10 years) to achieve European digital sovereignty and resilience. Prioritize migration of: 1: Critical Cloud hosting (IaaS/PaaS for CNI/Govt). 2: Essential SaaS platforms. 3: Foundational DNS/CDN services. Target European sovereign/private solutions. Plan phases, address dependencies, estimate resources (personnel, total budget likely €150-250bn+ across EU funded via hybrid national/EU model), tackle skill shortages, ensure GDPR/NIS2 compliance. Acknowledge this as a decade-long, high-cost, national-level emergency undertaking.
-
-[View Report](20250415_eu_digital_sovereignty_report.html)
-
-
-## AI Resistance
-
-Develop a Phase 1 (6-month) plan to establish the foundation for an international anti-AI movement focused on protesting AI job displacement, centrally coordinated by a core team headquartered in Switzerland and operating primarily via an online platform utilizing EUR for financial operations, assuming a more realistic initial budget of €1,000,000 EUR and monthly operational costs of €100,000 EUR (€1.6M total for the phase). This foundational phase prioritizes establishing the Swiss legal entity ('Verein') and core operations (including banking in EUR), developing and launching Version 1.0 of the secure online platform (focused on core communication and community features), recruiting and onboarding essential core paid staff (minimum: Project Management, Technical Lead/Platform Management, Finance/Operations Lead, Communications Lead, and Legal/Compliance Liaison) and initial key volunteers (considering the Swiss base and remote work policies), developing core messaging, branding, and initial communication materials, building an initial online community while establishing initial partnerships, aggressively implementing the detailed fundraising strategy for long-term sustainability, and outlining a plan for potential Phase 2 pilot protest activities. The overall plan must detail communication strategies, recruitment methods (distinguishing between paid staff and volunteers), platform requirements, staffing needs, budget allocation (in EUR), and Swiss legal/regulatory compliance considerations.
-
-[View Report](20250404_ai_resistance_report.html)
-
-
-## GTA Game
-
-Develop the next Grand Theft Auto (GTA), featuring a sprawling, immersive open-world metropolis blending elements of Los Angeles, Detroit, and Miami, filled with intricate narratives of crime, corruption, and power struggles, realistic criminal economies, dynamic NPC interactions, complex heist mechanics, extensive vehicle customization, nuanced morality systems, advanced procedural generation, next-gen graphical fidelity, multiplayer modes, and innovative gameplay funded by strategic industry partnerships, publisher investments, and government innovation grants.
-
-[View Report](20250329_gta_game_report.html)
-
-
 ## Silo
 
 Inspired by the [TV series "Silo"](https://www.imdb.com/title/tt14688458/).
