@@ -30,8 +30,14 @@
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 .use-case-card a:hover {
     text-decoration: underline;
+}
+
+.use-case-card a.use-case-card-arrow-link::after {
+    content: '→';
+    margin-left: 0.5rem;
 }

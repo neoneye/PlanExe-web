@@ -10,7 +10,7 @@ PlanExe transforms abstract ideas into comprehensive, actionable plans.
 <div class="use-case-card">
 <h2>{{ item.title }}</h2>
 <p>{{ item.description | markdownify }}</p>
-<a href="../{{ item.report_link }}">View Report</a>
+<a class="use-case-card-arrow-link" href="../{{ item.report_link }}">View Report</a>
 </div>
 {% endfor %}
 
