@@ -133,15 +133,23 @@
       }
 
       .use-case-card::after {
-        content: '→';
+        content: 'View Report →';
         color: var(--primary-color);
         font-weight: 500;
         align-self: flex-end;
-        transition: transform 0.2s ease;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+        opacity: 0;
+        transform: translateX(-10px);
+        visibility: hidden;
+        height: 1.2em;
+        display: block;
       }
 
       .use-case-card:hover::after {
-        transform: translateX(4px);
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
       }
 
       @media (max-width: 768px) {
