@@ -6,25 +6,14 @@ permalink: /use-cases/
 
 PlanExe transforms abstract ideas into comprehensive, actionable plans.
 
-## Insect Farm
+{% for use_case in site.data.usecases %}
+## {{ use_case.title }}
 
-Establish a 1 million DKK pilot [House Cricket (Acheta domesticus)](https://en.wikipedia.org/wiki/House_cricket) farm in Western Jutland, Denmark, utilizing controlled environment agriculture for food-grade human consumption. Focused on mastering efficient, hygienic production processes, this project will gather essential operational data for scaling insect protein production in Northern Europe, while actively working to build consumer acceptance and awareness of this sustainable food source.
+{{ use_case.description | markdownify }}
 
-[View Report](20250511_insect_farm_report.html)
+[View Report]({{ use_case.report_link }})
 
-
-## 555 Project - China/Russia lunar base
-
-Establish the China–Russia International Lunar Research Station’s “555 Project”: recruit 50 nations, 500 institutions and 5 000 scientists willing to operate under a Beijing-Roscosmos governance charter; integrate autonomous construction tech, in-situ resource utilisation, and a modular surface fission reactor; prioritise BRICS +, Global South and neutral European partners while offering conditional seats to Western entities that can navigate U.S./EU export-control waivers, share IP openly, and adhere to non-weaponisation clauses; phase milestones—proposal vetting Q4 2025, Chang’e-8 demo 2028, robotic cargo landings 2030, reactor activation 2033, continuous crew rotations by 2035—funded via Chinese central allocations, Roscosmos launch barter, Belt-and-Road aerospace credits and participant cost-shares.
-
-[View Report](20250427_555project_report.html)
-
-
-## Pope Funeral
-
-On 2025-April-21, Pope Francis has passed; from the Vatican’s perspective, plan the funeral and burial, security, crowd control, hotel bookings, and discreet food taster handling. Confirmed participants Trump, Zelensky, Lula, and Macron, noting the list may expand. Address potential protests against Trump. Ensure safety, order, and dignity for attendees, including global leaders and upper-class figures, with total event costs €20–40 million, largely covered by a private benefactor.
-
-[View Report](20250422_pope_funeral_report.html)
+{% endfor %}
 
 
 ## EU Digital Sovereignty
