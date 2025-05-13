@@ -11,7 +11,7 @@ PlanExe transforms abstract ideas into comprehensive, actionable plans.
 
 {{ use_case.description | markdownify }}
 
-[View Report]({{ use_case.report_link }})
+[View Report](../{{ use_case.report_link }})
 
 {% endfor %}
 
