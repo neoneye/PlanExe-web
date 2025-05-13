@@ -83,6 +83,8 @@
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
       }
 
       .use-case-card::before {
@@ -119,6 +121,7 @@
         margin-bottom: 1.5rem;
         color: #4b5563;
         line-height: 1.6;
+        flex-grow: 1;
       }
 
       .use-case-card a {
@@ -128,6 +131,7 @@
         display: inline-flex;
         align-items: center;
         transition: color 0.2s ease;
+        align-self: flex-end;
       }
 
       .use-case-card a:hover {
