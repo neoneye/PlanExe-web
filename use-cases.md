@@ -6,13 +6,12 @@ permalink: /use-cases/
 
 PlanExe transforms abstract ideas into comprehensive, actionable plans.
 
-{% for use_case in site.data.usecases %}
-## {{ use_case.title }}
-
-{{ use_case.description | markdownify }}
-
-[View Report](../{{ use_case.report_link }})
-
+{% for item in site.data.usecases %}
+<div class="use-case-card">
+<h2>{{ item.title }}</h2>
+<p>{{ item.description | markdownify }}</p>
+<a href="../{{ item.report_link }}">View Report</a>
+</div>
 {% endfor %}
 
 
