@@ -1,11 +1,10 @@
 /* Styles for the overall card container */
 .use-case-card {
-    border: 1px solid #ddd;
+    border: 1px solid #eee;
     padding: 20px;
     margin-bottom: 30px; /* Adds space below each card */
     border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
   
 /* Styles for the heading inside the card */
