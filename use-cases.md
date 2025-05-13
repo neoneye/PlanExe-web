@@ -4,7 +4,7 @@ title: Use Cases
 permalink: /use-cases/
 ---
 
-The most recent plans made with PlanExe. The `zip` files contains several files of these types: `json`, `markdown`, `csv`, `html`.
+PlanExe transforms abstract ideas into comprehensive, actionable plans.
 
 ## Insect Farm
 
