@@ -5,10 +5,10 @@ permalink: /use-cases/
 ---
 
 <header class="post-header planexe-usecases-header">
-<h1 class="post-title">The most recent use cases of PlanExe</h1>
+<h1 class="post-title">PlanExe Use Cases</h1>
 <div class="header-description">
     <p class="subtitle">Describe your idea, budget, location. PlanExe turns it into a plan.</p>
-    <p class="description">Below are plans made with PlanExe.</p>
+    <p class="description">A starting point for those who’d rather not begin with a blank page.</p>
 </div>
 </header>
 
