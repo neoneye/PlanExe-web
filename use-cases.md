@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: planexe_empty_page
 title: Use Cases
 permalink: /use-cases/
 ---
