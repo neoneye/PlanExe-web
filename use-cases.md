@@ -4,9 +4,18 @@ title: Use Cases
 permalink: /use-cases/
 ---
 
+<header class="post-header">
+<h1 class="post-title">The most recent use cases of PlanExe</h1>
+<div class="header-description">
+    <p class="subtitle">You provide a description of your idea. PlanExe transforms your idea into a plan.</p>
+    <p class="description">Below are examples plans made with PlanExe.</p>
+</div>
+</header>
+
 <div class="use-cases-header">
     <h1>The most recent use cases of PlanExe</h1>
-    <p>Click <strong>View Report</strong> to see the comprehensive plans.</p>
+    <!-- <p>These are AI generated plans.</p> -->
+    <p>These are the prompts, the report is the corrsponding AI generated plans.</p>
 </div>
 
 {% for item in site.data.usecases %}
