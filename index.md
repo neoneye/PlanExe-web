@@ -1,15 +1,35 @@
 ---
-layout: home
-title: Transform your ideas into actionable plans
+layout: planexe_empty_page
+title: Homepage of PlanExe
 ---
 
-PlanExe is a free and open-source planning assistant.
+<header class="post-header planexe-index-header">
+<h1 class="post-title">Homepage of PlanExe</h1>
+<div class="header-description">
+    <p class="subtitle">PlanExe is a tool for making plans.</p>
+    <p class="description">Try out your ideas.</p>
+</div>
+</header>
 
-Describe your project, run PlanExe for 10-20 minutes and read the generated plan.
+## What is it
 
----
+- PlanExe is a planner, that can make plans from vague descriptions.
+- Open source, MIT license. You can modify the python code or the report template.
+- Uses LlamaIndex so the LLM provider can be changed, such as OpenRouter, Ollama, LM Studio.
 
-# Featured Use Case
+## Why use it
+
+- Save time. It's time consuming to manually create a plan.
+- Discover risks before they happen. Mistakes can be expensive.
+- Get rough estimates of what resources are needed.
+
+## How to use it
+
+- Currently PlanExe is hard to use.
+- You need to be a developer or find a developer that can help you.
+- Ask on the PlanExe Discord for help.
+
+## Example plan
 
 {% for item in site.data.usecases %}
 {% if item.featured %}
@@ -21,6 +41,13 @@ Describe your project, run PlanExe for 10-20 minutes and read the generated plan
 {% endif %}
 {% endfor %}
 
----
+More plans: [Here]({{ '/use-cases.html'  | relative_url}}).
 
-# Latest News
+## Get involved
+
+Introduce yourself on the PlanExe Discord and ask how you can help.
+
+- Python developer, tweak most of the code.
+- Prompt engineer, make changes to the system prompts for different responses.
+- Project manager, for feedback about what is missing in the report. 
+- Designer, make the report look nicer.

@@ -56,3 +56,19 @@
 .planexe-usecases-header .subtitle {
     font-size: 1.2rem;
 }
+
+/* Styles for the header on the index page */
+.planexe-index-header {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.planexe-index-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 750;
+}
+
+.planexe-index-header .subtitle {
+    font-size: 1.2rem;
+}
