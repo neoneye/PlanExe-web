@@ -5,8 +5,8 @@ permalink: /use-cases/
 ---
 
 <div class="use-cases-header">
-    <h1>Transform Your Vision Into Reality</h1>
-    <p>PlanExe transforms abstract ideas into comprehensive, actionable plans. From <span class="highlight">lunar bases</span> to <span class="highlight">sustainable food systems</span>, we help you navigate complex challenges with confidence and precision.</p>
+    <h1>The most recent use cases of PlanExe</h1>
+    <p>Click <strong>View Report</strong> to see the comprehensive plans.</p>
 </div>
 
 {% for item in site.data.usecases %}
