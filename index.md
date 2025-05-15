@@ -41,7 +41,7 @@ title: Homepage of PlanExe
 {% endif %}
 {% endfor %}
 
-More plans: [Here]({{ '/use-cases.html'  | relative_url}}).
+More plans: [Here]({{ '/use-cases/'  | relative_url}}).
 
 ## Get involved
 
