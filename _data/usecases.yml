@@ -53,7 +53,7 @@
 
 - title: Rust OS
   description: |
-    Make a 64bit x86 OS in Rust. Linux-like but not POSIX-compliant. Monolithic kernel, memory management, process scheduler, shell, utils (ls, cat, rm, mkdir, mv, rmdir, ps). Basic drivers for console, disk, and virtio-net, and include enough network stack do a ping. This is my hobby project for testing LLM coding skills.
+    Make a 64bit x86 OS in Rust. Linux-like but not POSIX-compliant. Monolithic kernel, memory management, process scheduler, shell, utils (ls, cat, rm, mkdir, mv, rmdir, ps). Basic drivers for console, disk, and virtio-net, and include enough network stack to do a ping. This is my hobby project for testing LLM coding skills.
   report_link: 20250311_rust_os_report.html
 
 - title: Microplastics
