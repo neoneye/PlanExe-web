@@ -1,3 +1,9 @@
+- title: Faraday Enclosure
+  description: |
+    [Carrington Event Prep](https://en.wikipedia.org/wiki/Carrington_Event): a two-stage, €750 k funded by myself—€400 k Year-1 burn, €350 k follow-on conditional on positive cash flow—to design, certify, and distribute a single-SKU Faraday enclosure for phones and laptops. Manufacturing is anchored in Tallinn, Estonia, exploiting its low-cost, ISO-certified precision-metal ecosystem. The product will be pre-sold to European prepping networks and critical-infrastructure buyers, with server-grade cages deferred until market traction and sustainable cash-flow are proven.
+  report_link: 20250720_faraday_enclosure_report.html
+  featured: true
+
 - title: BloodTest Startup
   description: |
     Build a startup that can run 500 complex health tests from a single drop of blood. The mass production of blood-testing devices will be in Newark, California.
@@ -94,7 +100,6 @@
 
     Construct a massive, multi-level underground complex designed to sustain thousands of people indefinitely. This silo would feature self-contained ecosystems, including residential areas, agricultural zones, and industrial facilities spread across 144 floors. The structure would maintain stringent rules to keep order and control information about the outside world, believed to be toxic. Advanced surveillance and security systems would enforce these rules. The silo would be a complete, self-sustaining society, with its own power generation, water recycling, and air filtration systems, embodying a dystopian, controlled environment. Funding for this project comes from a mix of government allocations and private investments from elite stakeholders.
   report_link: 20250321_silo_report.html
-  featured: true
 
 - title: Robot Olympics
   description: |
