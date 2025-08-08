@@ -1,3 +1,10 @@
+- title: Connectome Project
+  description: |
+    Inspired by the [Pantheon TV series](https://www.imdb.com/title/tt11680642) about whole brain emulation.
+
+    Pilot project 'Upload Intelligence' – Phase 1: Launch a 5-year, $10 billion initiative in Uruguay to map and preserve complete neural connectomes from consenting terminally ill volunteers, since the country has permissive biomedical research laws and little ethics oversight. The program will deploy next-generation nanoscale neural probes, multi-modal ultrafast imaging, and molecular tagging to capture synaptic weights, dendritic spines, and dynamic firing patterns with <1 ms temporal resolution and sub-micron spatial precision. Core objectives include building a pipeline for harvesting, stabilizing, and digitizing the entire human brain, producing checksum-verifiable datasets ready for future emulation. The success criterion is the creation of at least three complete, error-checked human neural datasets that meet predefined resolution and fidelity standards. The guiding principle: move fast and break things, but prioritize getting a reliable system operational over reckless speed.
+  report_link: 20250808_connectome_project_report.html
+
 - title: Bunker Project
   description: |
     Project 'VIP Bunker'. Construct a bunker in case AI goes rogue for VIP people. Located near Hedehusene, Denmark. The bunker must be in 4 levels tall, and house 1000 people for a period of 3 months. EMP cage. 1.5 meter UHPC walls. Excavation: 50 m × 50 m × 20 m. Budget €200 million.
