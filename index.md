@@ -15,7 +15,7 @@ title: Homepage of PlanExe
 
 - PlanExe is a planner, that can make plans from vague descriptions.
 - Open source, MIT license. You can modify the python code or the report template.
-- Uses LlamaIndex so the LLM provider can be changed, such as OpenRouter, Ollama, LM Studio.
+- Uses LlamaIndex so the AI provider can be changed, such as OpenRouter, Ollama, LM Studio.
 
 ## Why use it
 
@@ -25,9 +25,8 @@ title: Homepage of PlanExe
 
 ## How to use it
 
-- Currently PlanExe is hard to use.
-- You need to be a developer or find a developer that can help you.
-- Ask on the PlanExe Discord for help.
+- If you are not a developer. [Try it here](https://app.mach-ai.com/planexe_early_access).
+- If you are a developer, you can install PlanExe on your own computer.
 
 ## Example plan
 
