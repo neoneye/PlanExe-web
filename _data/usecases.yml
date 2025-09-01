@@ -1,3 +1,10 @@
+- title: ASI ThreatPlaybook
+  description: |
+    Inspired by the [Existential risk from artificial intelligence](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence) wikipedia article.
+
+    DARPA program to develop a threat model and strategic playbook. The objective is to identify and codify the methods ASI can use to manipulate human society by exploiting cognitive, emotional, and social vulnerabilities. The model must consider strategic deception (The Prince, 48 Laws of Power, etc.), psychological manipulation (social engineering, advertising, etc.), and digital control (information security, man-in-the-middle attacks, ransomware tactics, etc.). The ultimate goal is to inform the development of defensive countermeasures.
+  report_link: 20250901_asi_threat_playbook_report.html
+
 - title: Police Robots
   description: |
     Inspired by the [Judge Dredd](https://www.imdb.com/title/tt0113492/) and [RoboCop](https://www.imdb.com/title/tt0093870/) movies.
