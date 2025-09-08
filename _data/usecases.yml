@@ -1,3 +1,14 @@
+- title: SIA MVP
+  description: |
+    Build a Shared Intelligence Asset MVP for one regulator in one jurisdiction (energy-market interventions only) with advisory use first and a Binding Use Charter considered after measured decision-quality lift. All qualifying actions are submitted via a structured schema; the system returns a Consequence Audit & Score (CAS 0.1–10.0) with a stoplight (GREEN/AMBER/RED) across Human Stability, Economic Resilience, Ecological Integrity, Rights/Legality and writes results to a signed, append-only public log within ≤7 days (≤48h emergencies). Proceeding on RED requires a public super-majority override with independent review and multilingual rationale—humans stay in charge, accountability is enforced. 
+
+    Build with hard gates and no buzzwords: G1—CAS v0.1 published (dimensions, weights, aggregation rule, uncertainty bands, stoplight mapping, provenance & change control) before any data/model work; G2—Data Rights First (source inventory, licenses, DPIAs, de-ID, retention; no clean licenses/DPIAs → no ingestion); G3—Architecture v1 in a single sovereign cloud region with per-tenant KMS/HSM, zero-trust, insider-threat controls, and tamper-evident signed logs (no blockchain); G4—Models & Validation (baselines + independent calibration audit, model cards, abuse-case red-teaming); G5—Portal & Process (reproducible CAS runs, human-in-the-loop review, appeals SLA, Rapid Response corridors for provisional CAS in minutes, one-page Executive Threat Brief: headline stoplight, most-likely outcome, tail-risk, mitigation to flip AMBER→GREEN). KPIs: calibration (Brier), discrimination (AUC), decision lift vs human-only baseline, and latency (P50/P95). 
+
+    Harden governance and lock scope. An independent council (judiciary, civil society, domain scientists, security, technical auditors) oversees an AI registry, Algorithmic Impact Assessments, continuous monitoring, and kill-switches for drift, audit failure, or governance breach; overrides ≤10%/yr, each with public rationale, dissent notes, and appeals; a Normative Charter ensures actions that are “effective” yet unethical can’t score GREEN; adoption is pull-based (transparency reports; optional insurer/creditor benefits for mitigations). MVP non-goals: multi-bloc federation, physical data centers, blockchain, and broad “2005–2025 everything” ingest.
+
+    Timeline: 30 months. Location: Switzerland. Budget: CHF 15 million.
+  report_link: 20250908_sia_mvp_report.html
+
 - title: Agnate Organogenesis
   description: |
     Inspired by [Putin/Xi's conversation about immortality](https://www.reuters.com/business/media-telecom/hot-mic-picks-up-putin-xi-discussing-organ-transplants-immortality-2025-09-03/) mixed with the plot of [The Island](https://www.imdb.com/title/tt0399201/) scifi movie about [organ harvesting](https://en.wikipedia.org/wiki/Organ_procurement).
