@@ -1,0 +1,32 @@
+<header class="planexe-header">
+  <div class="wrapper planexe-header__inner">
+    <a class="planexe-brand" rel="author" href="{{ '/' | relative_url }}">
+      <span class="planexe-brand__title">PlanExe</span>
+      <span class="planexe-brand__tagline">Plans for bold ideas</span>
+    </a>
+
+    <input class="planexe-nav-toggle" type="checkbox" id="planexe-nav-toggle">
+    <label class="planexe-nav-toggle__label" for="planexe-nav-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="planexe-nav" aria-label="Primary navigation">
+      <ul class="planexe-nav__list">
+        {%- assign page_paths = site.minima.nav_pages | default: site.html_pages | map: 'path' -%}
+        {%- for path in page_paths -%}
+          {%- assign nav_page = site.pages | where: 'path', path | first -%}
+          {%- if nav_page and nav_page.title -%}
+            <li class="planexe-nav__item">
+              <a class="planexe-nav__link" href="{{ nav_page.url | relative_url }}" {% if nav_page.url == page.url %}aria-current="page"{% endif %}>{{ nav_page.title | escape }}</a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+        <li class="planexe-nav__item planexe-nav__item--cta">
+          <a class="planexe-nav__link planexe-nav__link--cta" href="https://app.mach-ai.com/planexe_early_access" target="_blank" rel="noopener">Try PlanExe</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

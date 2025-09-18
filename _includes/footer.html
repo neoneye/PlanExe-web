@@ -1,0 +1,40 @@
+<footer class="planexe-footer">
+  <div class="wrapper planexe-footer__inner">
+    <div class="planexe-footer__brand">
+      <a class="planexe-footer__title" href="{{ '/' | relative_url }}">PlanExe</a>
+      <p class="planexe-footer__description">Transform ambitious ideas into structured, risk-aware execution plans.</p>
+    </div>
+
+    <div class="planexe-footer__links">
+      <span class="planexe-footer__label">Explore</span>
+      <ul class="planexe-footer__list">
+        {%- assign page_paths = site.minima.nav_pages | default: site.html_pages | map: 'path' -%}
+        {%- for path in page_paths -%}
+          {%- assign nav_page = site.pages | where: 'path', path | first -%}
+          {%- if nav_page and nav_page.title -%}
+            <li>
+              <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | escape }}</a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+        <li>
+          <a href="https://app.mach-ai.com/planexe_early_access" target="_blank" rel="noopener">Try PlanExe</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="planexe-footer__contact">
+      <span class="planexe-footer__label">Stay in touch</span>
+      <ul class="planexe-footer__list">
+        <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+        <li><a href="https://discord.gg/VAeGXLVB44" target="_blank" rel="noopener">Join the Discord</a></li>
+        <li><a href="https://github.com/neoneye/PlanExe" target="_blank" rel="noopener">View on GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrapper planexe-footer__bottom">
+    <p>© {{ site.time | date: '%Y' }} PlanExe. Crafted by {{ site.author.name }}.</p>
+    <a class="planexe-footer__privacy" href="{{ '/execute/' | relative_url }}">Read a sample plan</a>
+  </div>
+</footer>
