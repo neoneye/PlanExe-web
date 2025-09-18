@@ -128,9 +128,38 @@ main.page-content {
 
 .planexe-brand {
     display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
+    align-items: center;
+    gap: 0.85rem;
     text-decoration: none;
+}
+
+.planexe-brand__icon,
+.planexe-footer__icon {
+    display: inline-block;
+    flex-shrink: 0;
+    color: #ffffff;
+    background-color: currentColor;
+    -webkit-mask-image: url('/favicon-128x128.png');
+    mask-image: url('/favicon-128x128.png');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-mode: luminance;
+    mask-mode: luminance;
+}
+
+.planexe-brand__icon {
+    width: 44px;
+    height: 44px;
+}
+
+.planexe-brand__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.28rem;
 }
 
 .planexe-brand__title {
@@ -478,11 +507,22 @@ main.page-content {
     align-items: start;
 }
 
+.planexe-footer__home {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    text-decoration: none;
+}
+
+.planexe-footer__icon {
+    width: 48px;
+    height: 48px;
+}
+
 .planexe-footer__title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff;
-    text-decoration: none;
 }
 
 .planexe-footer__description {
