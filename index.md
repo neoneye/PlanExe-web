@@ -5,105 +5,105 @@ title: Homepage of PlanExe
 
 <div class="planexe-hero">
   <div class="planexe-hero__content">
-    <span class="planexe-badge">AI planning assistant</span>
-    <h1>PlanExe turns ambitious ideas into structured action plans</h1>
-    <p>Give PlanExe a direction, a budget, and constraints. Receive a complete plan with milestones, risks, and resourcing you can execute.</p>
+    <span class="planexe-badge">Operational directive engine</span>
+    <h1>PlanExe codifies high-risk directives into controlled execution</h1>
+    <p>Feed PlanExe unstable mandates, hard budgets, and political redlines. It returns staged operations with traceable checkpoints, escalation windows, and executive-ready debriefs.</p>
     <div class="planexe-hero__actions">
-      <a class="planexe-button planexe-button--primary" href="https://app.mach-ai.com/planexe_early_access" target="_blank" rel="noopener">Try the early access</a>
-      <a class="planexe-button planexe-button--ghost" href="{{ '/use-cases/' | relative_url }}">Browse example plans</a>
+      <a class="planexe-button planexe-button--primary" href="https://app.mach-ai.com/planexe_early_access" target="_blank" rel="noopener">Request clearance</a>
+      <a class="planexe-button planexe-button--ghost" href="{{ '/use-cases/' | relative_url }}">Review sample dossiers</a>
     </div>
     <ul class="planexe-hero__highlights">
-      <li>Open source under the MIT license</li>
-      <li>Swap between OpenRouter, Ollama, LM Studio, and more</li>
-      <li>Fine-tune prompts, templates, and reports to your workflow</li>
+      <li>Hardened dossier exports with embedded audit trails and risk bands.</li>
+      <li>Swap between isolated OpenRouter, Ollama, or LM Studio stacks without leakage.</li>
+      <li>Custom kill-chain templates, redaction rules, and escalation defaults.</li>
     </ul>
   </div>
   {% assign featured_case = site.data.usecases | where: 'featured', true | first %}
   {% if featured_case %}
   <div class="planexe-hero__card">
-    <span class="planexe-section__eyebrow">Featured scenario</span>
+    <span class="planexe-section__eyebrow">Active dossier</span>
     <h2>{{ featured_case.title }}</h2>
     <div class="planexe-card__body">
       {{ featured_case.description | markdownify }}
     </div>
-    <a class="planexe-link--arrow" href="{{ featured_case.report_link | relative_url }}">View plan</a>
+    <a class="planexe-link--arrow" href="{{ featured_case.report_link | relative_url }}">Open dossier</a>
   </div>
   {% endif %}
 </div>
 
 <section class="planexe-section">
-  <span class="planexe-section__eyebrow">Why PlanExe</span>
-  <h2 class="planexe-section__title">Bring clarity to messy problem statements</h2>
-  <p class="planexe-section__lede">PlanExe analyses vague direction, budgets, time horizons, and constraints to produce structured plans with milestones, dependencies, and risk mitigation.</p>
+  <span class="planexe-section__eyebrow">Rationale</span>
+  <h2 class="planexe-section__title">Impose order on volatile directives</h2>
+  <p class="planexe-section__lede">PlanExe cross-references budgets, politics, and risk tolerance to turn ambiguous commands into accountable roadmaps you can defend under scrutiny.</p>
   <div class="planexe-feature-grid">
     <article class="planexe-feature-card">
-      <h3>Understand the landscape</h3>
-      <p>Feed PlanExe the backstory and it highlights hidden risks, resources, and decision points before work begins.</p>
+      <h3>Surface destabilizers</h3>
+      <p>Fuse backstory, intelligence notes, and constraints to expose silent dependencies, civic flashpoints, and supply shocks before the mission launches.</p>
     </article>
     <article class="planexe-feature-card">
-      <h3>Move faster together</h3>
-      <p>Share repeatable plan templates with your team, then adjust prompts and outputs to match your internal processes.</p>
+      <h3>Synchronize sealed teams</h3>
+      <p>Distribute templated plans across compartmentalized crews while keeping prompts, redlines, and approvals aligned with oversight policy.</p>
     </article>
     <article class="planexe-feature-card">
-      <h3>Choose your AI provider</h3>
-      <p>Powered by LlamaIndex so you can run PlanExe with OpenRouter, Ollama, LM Studio, or your preferred stack.</p>
+      <h3>Control your intelligence stack</h3>
+      <p>Leverage the LlamaIndex core to switch between OpenRouter, Ollama, LM Studio, or isolated endpoints without leaking context.</p>
     </article>
   </div>
 </section>
 
 <section class="planexe-section">
-  <span class="planexe-section__eyebrow">Get started</span>
-  <h2 class="planexe-section__title">Use PlanExe your way</h2>
+  <span class="planexe-section__eyebrow">Deployment</span>
+  <h2 class="planexe-section__title">Select your deployment perimeter</h2>
   <div class="planexe-feature-grid">
     <article class="planexe-feature-card">
-      <h3>Non-developers</h3>
-      <p>Use the hosted experience and generate plans in the browser—no installation required.</p>
-      <a class="planexe-link--arrow" href="https://app.mach-ai.com/planexe_early_access" target="_blank" rel="noopener">Launch early access</a>
+      <h3>Operators</h3>
+      <p>Leverage the hosted console with managed isolation. Generate sanitized dossiers from secured browsers—no local install.</p>
+      <a class="planexe-link--arrow" href="https://app.mach-ai.com/planexe_early_access" target="_blank" rel="noopener">Enter hosted console</a>
     </article>
     <article class="planexe-feature-card">
-      <h3>Developers</h3>
-      <p>Clone the repository, customize the prompts or report templates, and run PlanExe locally.</p>
-      <a class="planexe-link--arrow" href="{{ '/github.html' | relative_url }}">See the source code</a>
+      <h3>Engineers</h3>
+      <p>Clone the repository, wire your preferred model endpoints, harden the prompts, and run PlanExe within your own enclave.</p>
+      <a class="planexe-link--arrow" href="{{ '/github.html' | relative_url }}">Review the source</a>
     </article>
   </div>
 </section>
 
 <section class="planexe-section">
-  <span class="planexe-section__eyebrow">Example output</span>
-  <h2 class="planexe-section__title">Explore the latest generated plans</h2>
+  <span class="planexe-section__eyebrow">Dossier feed</span>
+  <h2 class="planexe-section__title">Inspect the latest sanctioned dossiers</h2>
   {% assign showcased_cases = site.data.usecases | slice: 0, 3 %}
   <div class="planexe-usecase-grid">
     {% for item in showcased_cases %}
     <article class="planexe-card planexe-card--usecase">
-      <span class="planexe-card__meta">Scenario</span>
+      <span class="planexe-card__meta">Dossier</span>
       <h3 class="planexe-card__title">{{ item.title }}</h3>
       <div class="planexe-card__body">
         {{ item.description | markdownify }}
       </div>
-      <a class="planexe-link--arrow" href="{{ item.report_link | relative_url }}">View plan</a>
+      <a class="planexe-link--arrow" href="{{ item.report_link | relative_url }}">Open dossier</a>
     </article>
     {% endfor %}
   </div>
-  <a class="planexe-link--arrow" href="{{ '/use-cases/' | relative_url }}">Browse all use cases</a>
+  <a class="planexe-link--arrow" href="{{ '/use-cases/' | relative_url }}">Browse the full library</a>
 </section>
 
 <section class="planexe-section">
-  <span class="planexe-section__eyebrow">Community</span>
-  <h2 class="planexe-section__title">Help shape where PlanExe goes next</h2>
+  <span class="planexe-section__eyebrow">Network</span>
+  <h2 class="planexe-section__title">Join the quiet network behind PlanExe</h2>
   <div class="planexe-feature-grid">
     <article class="planexe-feature-card">
-      <h3>Python &amp; full-stack contributors</h3>
-      <p>Improve the core engine, integrate additional AI providers, or evolve the report structure.</p>
+      <h3>Protocol engineers</h3>
+      <p>Strengthen the orchestration core, extend data isolation layers, and stress-test the reporting surface.</p>
     </article>
     <article class="planexe-feature-card">
-      <h3>Prompt engineers &amp; domain experts</h3>
-      <p>Create better prompt scaffolds and datasets for niche industries or complex risk profiles.</p>
+      <h3>Scenario architects</h3>
+      <p>Design directive scaffolds and datasets for contentious industries, geopolitics, and asymmetric threats.</p>
     </article>
     <article class="planexe-feature-card">
-      <h3>Designers &amp; operators</h3>
-      <p>Polish the UI, challenge the output format, and share feedback from real-world usage.</p>
+      <h3>Operations liaisons</h3>
+      <p>Audit the UI, push for brutal honesty in reporting, and circulate field intelligence from live deployments.</p>
     </article>
   </div>
-  <p class="planexe-section__lede">Join the conversation on Discord and let us know what plan you want to generate next.</p>
-  <a class="planexe-link--arrow" href="{{ '/discord.html' | relative_url }}">Join the Discord server</a>
+  <p class="planexe-section__lede">Access is invite-gated. Share field feedback, red-team notes, and next directives inside the sealed channel.</p>
+  <a class="planexe-link--arrow" href="{{ '/discord.html' | relative_url }}">Request Discord access</a>
 </section>

@@ -1,47 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 :root {
-    --plx-bg: #f3f5fa;
-    --plx-surface: #ffffff;
-    --plx-surface-tint: rgba(255, 255, 255, 0.85);
-    --plx-border: rgba(15, 23, 42, 0.08);
-    --plx-text: #0f172a;
-    --plx-muted: #475569;
+    --plx-bg: #020409;
+    --plx-bg-alt: #050c16;
+    --plx-surface: rgba(8, 17, 28, 0.88);
+    --plx-surface-tint: rgba(11, 28, 47, 0.7);
+    --plx-border: rgba(94, 234, 212, 0.14);
+    --plx-text: #e2e8f0;
+    --plx-muted: #94a3b8;
     --plx-subtle: #64748b;
-    --plx-primary: #2563eb;
-    --plx-primary-dark: #1d4ed8;
-    --plx-accent: #7c3aed;
-    --plx-shadow: 0 25px 45px rgba(15, 23, 42, 0.12);
-    --plx-shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.08);
+    --plx-primary: #f87171;
+    --plx-primary-dark: #ef4444;
+    --plx-accent: #38bdf8;
+    --plx-signal: #fbbf24;
+    --plx-shadow: 0 28px 70px rgba(8, 47, 73, 0.42);
+    --plx-shadow-soft: 0 18px 42px rgba(8, 47, 73, 0.32);
     --plx-radius-lg: 18px;
     --plx-radius-md: 12px;
     --plx-radius-sm: 8px;
     --plx-transition: 200ms ease;
-    --plx-font-sans: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --plx-font-sans: "Space Grotesk", "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --plx-font-mono: "IBM Plex Mono", "SFMono-Regular", "Menlo", monospace;
 }
 
 body {
-    background: var(--plx-bg);
+    background-color: var(--plx-bg);
+    background-image:
+        radial-gradient(circle at 10% 10%, rgba(59, 130, 246, 0.08), transparent 55%),
+        radial-gradient(circle at 90% 0%, rgba(239, 68, 68, 0.1), transparent 50%),
+        linear-gradient(125deg, rgba(3, 7, 18, 0.85) 0%, rgba(12, 20, 31, 0.95) 50%, rgba(2, 4, 9, 1) 100%),
+        linear-gradient(0deg, transparent 24px, rgba(15, 118, 110, 0.08) 25px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 32px;
     color: var(--plx-text);
     font-family: var(--plx-font-sans);
     line-height: 1.65;
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(0deg, rgba(148, 163, 184, 0.035) 0, rgba(148, 163, 184, 0.035) 1px, transparent 1px, transparent 3px),
+        radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.05), transparent 60%);
+    mix-blend-mode: screen;
+    opacity: 0.9;
+    z-index: 0;
 }
 
 a {
-    color: var(--plx-primary);
-    transition: color var(--plx-transition);
+    color: var(--plx-accent);
+    transition: color var(--plx-transition), text-shadow var(--plx-transition);
 }
 
 a:hover,
 a:focus {
-    color: var(--plx-primary-dark);
+    color: var(--plx-primary);
+    text-shadow: 0 0 12px rgba(248, 113, 113, 0.45);
 }
 
 .wrapper {
     max-width: 1100px;
     padding: 0 24px;
+    position: relative;
+    z-index: 2;
 }
 
 main.page-content {
     padding: 3rem 0 6rem;
+    position: relative;
+    z-index: 2;
 }
 
 .post {
@@ -70,27 +101,32 @@ main.page-content {
 }
 
 .planexe-button--primary {
-    background: linear-gradient(135deg, var(--plx-primary) 0%, var(--plx-accent) 100%);
-    color: #ffffff;
+    background: linear-gradient(130deg, rgba(248, 113, 113, 0.95) 0%, rgba(56, 189, 248, 0.85) 100%);
+    color: #020617;
     box-shadow: var(--plx-shadow);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-button--primary:hover,
 .planexe-button--primary:focus {
     transform: translateY(-2px);
-    box-shadow: 0 32px 56px rgba(37, 99, 235, 0.22);
+    box-shadow: 0 42px 70px rgba(56, 189, 248, 0.38);
 }
 
 .planexe-button--ghost {
     background: transparent;
-    border-color: rgba(255, 255, 255, 0.4);
-    color: #ffffff;
+    border-color: rgba(56, 189, 248, 0.38);
+    color: rgba(226, 232, 240, 0.92);
+    letter-spacing: 0.12em;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-button--ghost:hover,
 .planexe-button--ghost:focus {
-    border-color: rgba(255, 255, 255, 0.7);
-    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(248, 113, 113, 0.48);
+    background: rgba(8, 47, 73, 0.5);
 }
 
 .planexe-badge {
@@ -99,22 +135,25 @@ main.page-content {
     gap: 0.4rem;
     padding: 0.35rem 0.7rem;
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.18);
-    color: #ffffff;
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.32);
+    color: var(--plx-accent);
     text-transform: uppercase;
     font-size: 0.68rem;
     letter-spacing: 0.18em;
     font-weight: 600;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-header {
-    background: linear-gradient(120deg, #111827 0%, #1f2937 45%, #312e81 100%);
+    background: linear-gradient(140deg, rgba(15, 23, 42, 0.92) 0%, rgba(127, 29, 29, 0.78) 55%, rgba(7, 25, 45, 0.94) 100%);
     color: #e2e8f0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.32);
+    border-bottom: 1px solid rgba(248, 113, 113, 0.28);
+    box-shadow: 0 28px 50px rgba(12, 74, 110, 0.48);
     position: sticky;
     top: 0;
     z-index: 40;
+    backdrop-filter: blur(18px);
 }
 
 .planexe-header__inner {
@@ -214,12 +253,15 @@ main.page-content {
 }
 
 .planexe-nav__link {
-    color: rgba(226, 232, 240, 0.88);
+    color: rgba(226, 232, 240, 0.82);
     font-weight: 500;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.08em;
     text-decoration: none;
     position: relative;
     padding-bottom: 0.15rem;
+    text-transform: uppercase;
+    font-size: 0.74rem;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-nav__link::after {
@@ -229,7 +271,7 @@ main.page-content {
     bottom: -0.35rem;
     width: 100%;
     height: 2px;
-    background: rgba(255, 255, 255, 0.35);
+    background: linear-gradient(90deg, rgba(248, 113, 113, 0.8), rgba(56, 189, 248, 0.45));
     transform: scaleX(0);
     transform-origin: left;
     transition: transform var(--plx-transition);
@@ -250,19 +292,20 @@ main.page-content {
 }
 
 .planexe-nav__link--cta {
-    background: #ffffff;
-    color: #0f172a;
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.95) 0%, rgba(56, 189, 248, 0.9) 110%);
+    color: #0b1120;
     padding: 0.6rem 1.3rem;
     border-radius: var(--plx-radius-md);
     font-weight: 600;
-    box-shadow: 0 18px 30px rgba(15, 23, 42, 0.28);
+    letter-spacing: 0.08em;
+    box-shadow: 0 18px 38px rgba(239, 68, 68, 0.32);
 }
 
 .planexe-nav__link--cta:hover,
 .planexe-nav__link--cta:focus {
     transform: translateY(-2px);
-    box-shadow: 0 26px 42px rgba(15, 23, 42, 0.32);
-    color: #0f172a;
+    box-shadow: 0 32px 52px rgba(56, 189, 248, 0.42);
+    color: #020617;
 }
 
 .planexe-hero {
@@ -271,19 +314,40 @@ main.page-content {
     padding: 3.25rem;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(145deg, rgba(37, 99, 235, 0.12) 0%, rgba(124, 58, 237, 0.08) 50%, rgba(15, 23, 42, 0.85) 120%);
-    color: #ffffff;
+    background:
+        linear-gradient(150deg, rgba(15, 23, 42, 0.92) 0%, rgba(76, 5, 25, 0.82) 55%, rgba(12, 74, 110, 0.82) 110%),
+        radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.18), transparent 60%);
+    color: #f8fafc;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 3rem;
-    box-shadow: 0 42px 96px rgba(15, 23, 42, 0.32);
+    border: 1px solid rgba(248, 113, 113, 0.28);
+    box-shadow: 0 52px 110px rgba(15, 23, 42, 0.52);
+}
+
+.planexe-hero::before {
+    content: "LEVEL 5 // CLASSIFIED";
+    position: absolute;
+    left: -80px;
+    top: 40px;
+    font-family: var(--plx-font-mono);
+    font-size: 0.9rem;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: rgba(248, 113, 113, 0.18);
+    transform: rotate(-12deg);
+    pointer-events: none;
 }
 
 .planexe-hero::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.18), transparent 55%);
+    background:
+        radial-gradient(circle at top right, rgba(56, 189, 248, 0.22), transparent 55%),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.2) 1px, transparent 1px);
+    background-size: 100% 100%, 140px;
+    mix-blend-mode: screen;
     pointer-events: none;
 }
 
@@ -296,6 +360,8 @@ main.page-content {
     font-size: clamp(2.4rem, 4vw, 3.2rem);
     line-height: 1.08;
     margin: 1.4rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .planexe-hero__content p {
@@ -326,8 +392,9 @@ main.page-content {
     gap: 0.75rem;
     padding: 0.65rem 1rem;
     border-radius: var(--plx-radius-md);
-    background: rgba(15, 23, 42, 0.32);
-    border: 1px solid rgba(241, 245, 249, 0.14);
+    background: rgba(2, 6, 23, 0.72);
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.22);
 }
 
 .planexe-hero__highlights li::before {
@@ -337,17 +404,18 @@ main.page-content {
     border-radius: 50%;
     background: linear-gradient(135deg, var(--plx-primary), var(--plx-accent));
     flex-shrink: 0;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.45);
 }
 
 .planexe-hero__card {
     position: relative;
     z-index: 2;
-    background: rgba(15, 23, 42, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(8, 19, 34, 0.72);
+    border: 1px solid rgba(56, 189, 248, 0.24);
     border-radius: 24px;
     padding: 2.5rem;
     backdrop-filter: blur(12px);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0 1px 0 rgba(56, 189, 248, 0.12);
 }
 
 .planexe-hero__card h2 {
@@ -369,23 +437,27 @@ main.page-content {
     gap: 0.4rem;
     padding: 0.35rem 0.75rem;
     border-radius: 999px;
-    background: rgba(37, 99, 235, 0.12);
-    color: var(--plx-primary);
-    font-size: 0.72rem;
+    background: rgba(8, 47, 73, 0.45);
+    border: 1px solid rgba(56, 189, 248, 0.28);
+    color: var(--plx-accent);
+    font-size: 0.7rem;
     font-weight: 600;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.26em;
     text-transform: uppercase;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-section__title {
     margin: 1rem 0 1.5rem;
     font-size: 1.9rem;
     color: var(--plx-text);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 .planexe-section__lede {
     max-width: 60ch;
-    color: var(--plx-subtle);
+    color: rgba(148, 163, 184, 0.88);
     margin-bottom: 2rem;
 }
 
@@ -410,8 +482,8 @@ main.page-content {
 .planexe-card:hover,
 .planexe-card:focus-within {
     transform: translateY(-6px);
-    border-color: rgba(37, 99, 235, 0.32);
-    box-shadow: 0 30px 55px rgba(15, 23, 42, 0.14);
+    border-color: rgba(248, 113, 113, 0.36);
+    box-shadow: 0 36px 70px rgba(8, 47, 73, 0.38);
 }
 
 .planexe-feature-card h3,
@@ -419,6 +491,8 @@ main.page-content {
     margin-top: 0;
     margin-bottom: 0.85rem;
     font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 .planexe-feature-card p,
@@ -435,16 +509,21 @@ main.page-content {
     text-decoration: none;
     color: var(--plx-primary);
     margin-top: 1.25rem;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.24em;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-link--arrow::after {
-    content: "→";
-    transition: transform var(--plx-transition);
+    content: "⟶";
+    transition: transform var(--plx-transition), text-shadow var(--plx-transition);
 }
 
 .planexe-link--arrow:hover::after,
 .planexe-link--arrow:focus::after {
-    transform: translateX(4px);
+    transform: translateX(6px);
+    text-shadow: 0 0 12px rgba(248, 113, 113, 0.5);
 }
 
 .planexe-usecases-header {
@@ -454,10 +533,22 @@ main.page-content {
 .planexe-usecases-header .post-title {
     font-size: 2.6rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--plx-text);
 }
 
 .planexe-usecases-header .header-description {
     max-width: 60ch;
+}
+
+.planexe-usecases-header .subtitle,
+.planexe-usecases-header .description {
+    color: rgba(148, 163, 184, 0.88);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.85rem;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-usecase-grid {
@@ -479,6 +570,7 @@ main.page-content {
     letter-spacing: 0.18em;
     color: var(--plx-primary);
     font-weight: 600;
+    font-family: var(--plx-font-mono);
 }
 
 .planexe-card--usecase .planexe-card__body p {
@@ -494,10 +586,14 @@ main.page-content {
 }
 
 .planexe-footer {
-    background: linear-gradient(140deg, #0f172a 0%, #111827 55%, #1e1b4b 100%);
+    background: linear-gradient(160deg, rgba(7, 11, 18, 0.96) 0%, rgba(76, 5, 25, 0.82) 65%, rgba(17, 24, 39, 0.92) 100%);
     color: rgba(226, 232, 240, 0.88);
     padding: 3.5rem 0 2.5rem;
     margin-top: 6rem;
+    border-top: 1px solid rgba(248, 113, 113, 0.28);
+    box-shadow: 0 -24px 48px rgba(12, 74, 110, 0.28);
+    position: relative;
+    z-index: 2;
 }
 
 .planexe-footer__inner {
@@ -594,8 +690,8 @@ main.page-content {
         right: 24px;
         top: calc(100% + 16px);
         width: min(320px, calc(100% - 48px));
-        background: var(--plx-surface);
-        border: 1px solid var(--plx-border);
+        background: var(--plx-surface-tint);
+        border: 1px solid rgba(248, 113, 113, 0.26);
         border-radius: var(--plx-radius-lg);
         box-shadow: var(--plx-shadow);
         padding: 1.5rem;
@@ -608,11 +704,11 @@ main.page-content {
     }
 
     .planexe-nav__link {
-        color: var(--plx-text);
+        color: rgba(226, 232, 240, 0.88);
     }
 
     .planexe-nav__link::after {
-        background: linear-gradient(135deg, var(--plx-primary), var(--plx-accent));
+        background: linear-gradient(135deg, rgba(248, 113, 113, 0.8), rgba(56, 189, 248, 0.65));
         bottom: -0.4rem;
     }
 
