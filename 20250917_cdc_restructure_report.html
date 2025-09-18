@@ -13,131 +13,419 @@
   gtag('config', 'G-2F6NE7JWTR');
 </script>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 40px;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
+        :root {
+            --plx-bg: #eef2ff;
+            --plx-surface: #ffffff;
+            --plx-surface-muted: #f8fafc;
+            --plx-border: rgba(15, 23, 42, 0.08);
+            --plx-border-strong: rgba(15, 23, 42, 0.14);
+            --plx-text: #0f172a;
+            --plx-muted: #64748b;
+            --plx-heading: #0b1629;
+            --plx-primary: #2563eb;
+            --plx-primary-strong: #1d4ed8;
+            --plx-accent: #7c3aed;
+            --plx-radius-lg: 20px;
+            --plx-radius-md: 14px;
+            --plx-radius-sm: 8px;
+            --plx-shadow: 0 28px 60px rgba(15, 23, 42, 0.12);
+            --plx-shadow-soft: 0 16px 40px rgba(14, 23, 42, 0.08);
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+            background:
+                radial-gradient(circle at 12% 15%, rgba(37, 99, 235, 0.18), transparent 45%),
+                radial-gradient(circle at 88% 8%, rgba(124, 58, 237, 0.22), transparent 55%),
+                linear-gradient(180deg, rgba(226, 232, 240, 0.6), transparent 65%),
+                var(--plx-bg);
+            color: var(--plx-text);
+            margin: 0;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a {
+            color: var(--plx-primary);
+            text-decoration: none;
+            transition: color 200ms ease, opacity 200ms ease;
+        }
+        a:hover,
+        a:focus-visible {
+            color: var(--plx-primary-strong);
+            text-decoration: underline;
+        }
+        .planexe-report {
+            max-width: 1120px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 3.5rem 2.5rem 5rem;
         }
-        h1 { 
-            color: #2c3e50;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
+        .planexe-report__surface {
+            background: var(--plx-surface);
+            border-radius: var(--plx-radius-lg);
+            box-shadow: var(--plx-shadow);
+            overflow: hidden;
         }
-        h2 { 
-            color: #34495e;
-            margin-top: 30px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
+        .planexe-report__header {
+            padding: 3rem 3rem 2.4rem;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.97), rgba(124, 58, 237, 0.92));
+            color: #ffffff;
+            position: relative;
         }
-        .section { 
-            margin: 20px 0;
-            border: 1px solid #eee;
-            border-radius: 5px;
-            background-color: #fff;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        .planexe-report__header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 80% 15%, rgba(255, 255, 255, 0.22), transparent 55%);
+            pointer-events: none;
+        }
+        .planexe-report__eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 0.4rem 0.85rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.18);
+            color: rgba(255, 255, 255, 0.88);
+            margin-bottom: 1.4rem;
+            position: relative;
+            z-index: 1;
+        }
+        .planexe-report__title {
+            font-size: clamp(2rem, 4.1vw, 3.2rem);
+            line-height: 1.05;
+            margin: 0;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+        .planexe-report__subtitle {
+            margin: 1rem 0 0;
+            font-size: 1.05rem;
+            max-width: 54ch;
+            color: rgba(255, 255, 255, 0.85);
+            position: relative;
+            z-index: 1;
+        }
+        .planexe-report__meta {
+            margin-top: 1.8rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem 1.6rem;
+            align-items: center;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.82);
+            position: relative;
+            z-index: 1;
+        }
+        .planexe-report__meta-divider {
+            color: rgba(255, 255, 255, 0.4);
+        }
+        .planexe-report__body {
+            padding: 2.75rem 3rem 3.3rem;
+            background: var(--plx-surface);
+        }
+        .planexe-report__body > :first-child {
+            margin-top: 0;
+        }
+        .planexe-report__body h2 {
+            font-size: 1.6rem;
+            margin-top: 2.4rem;
+            margin-bottom: 1rem;
+            color: var(--plx-heading);
+            line-height: 1.3;
+        }
+        .planexe-report__body h3 {
+            font-size: 1.22rem;
+            margin-top: 1.9rem;
+            margin-bottom: 0.65rem;
+            color: var(--plx-text);
+        }
+        .planexe-report__body h4 {
+            font-size: 1.05rem;
+            margin-top: 1.4rem;
+            margin-bottom: 0.55rem;
+            font-weight: 600;
+            color: var(--plx-text);
+        }
+        .planexe-report__body p {
+            margin: 0.75rem 0 0.95rem;
+            color: var(--plx-text);
+        }
+        .planexe-report__body p strong {
+            color: var(--plx-heading);
+        }
+        .planexe-report__body em {
+            color: var(--plx-muted);
+        }
+        .planexe-report__body ul,
+        .planexe-report__body ol {
+            margin: 0.3rem 0 1.6rem 1.35rem;
+        }
+        .planexe-report__body li + li {
+            margin-top: 0.35rem;
+        }
+        .section {
+            margin: 1.9rem 0;
+            border: 1px solid var(--plx-border);
+            border-radius: var(--plx-radius-md);
+            background: var(--plx-surface-muted);
+            box-shadow: var(--plx-shadow-soft);
+            overflow: hidden;
+        }
+        .section:first-of-type {
+            margin-top: 1.2rem;
         }
         .section-execute-plan-hidden {
             display: none;
         }
-        table { 
-            border-collapse: collapse;
+        .collapsible {
             width: 100%;
-            margin: 20px 0;
-            font-size: 14px;
+            padding: 1.5rem 2.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+            background: linear-gradient(90deg, rgba(37, 99, 235, 0.12), rgba(124, 58, 237, 0.04));
+            color: var(--plx-heading);
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            position: relative;
+            text-align: left;
+            transition: background 220ms ease, color 220ms ease, padding 220ms ease;
         }
-        th, td { 
-            border: 1px solid #ddd;
-            padding: 12px 8px;
+        .collapsible::after {
+            content: "";
+            flex-shrink: 0;
+            width: 0.85rem;
+            height: 0.85rem;
+            border-right: 2px solid currentColor;
+            border-bottom: 2px solid currentColor;
+            transform: rotate(-45deg);
+            transition: transform 220ms ease;
+        }
+        .collapsible:hover,
+        .collapsible:focus-visible {
+            background: linear-gradient(90deg, rgba(37, 99, 235, 0.2), rgba(124, 58, 237, 0.12));
+        }
+        .collapsible:focus-visible {
+            outline: 2px solid rgba(37, 99, 235, 0.6);
+            outline-offset: -4px;
+        }
+        .collapsible.active::after {
+            transform: rotate(45deg);
+        }
+        .content {
+            padding: 0 2.6rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 280ms ease, padding 220ms ease, background 220ms ease;
+            background: linear-gradient(180deg, rgba(248, 250, 252, 0.95) 0%, rgba(255, 255, 255, 1) 45%);
+        }
+        .content.open {
+            padding: 2.2rem 2.6rem 2.6rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.75rem 0;
+            font-size: 0.95rem;
+            border: 1px solid var(--plx-border);
+            background: var(--plx-surface);
+            border-radius: var(--plx-radius-sm);
+            overflow: hidden;
+        }
+        table thead th {
+            background: rgba(37, 99, 235, 0.08);
+            padding: 0.9rem 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.75rem;
+            color: var(--plx-muted);
+            border-bottom: 1px solid var(--plx-border);
+        }
+        th, td {
+            border-top: 1px solid var(--plx-border);
+            padding: 0.85rem 1rem;
             text-align: left;
         }
-        th { 
-            background-color: #f5f5f5;
-            font-weight: bold;
+        tr:nth-child(even) td {
+            background: rgba(15, 23, 42, 0.03);
         }
-        tr:nth-child(even) { 
-            background-color: #f9f9f9;
-        }
-        tr:hover {
-            background-color: #f5f5f5;
-        }
-        .planexe-report-info { 
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 30px;
+        tr:hover td {
+            background: rgba(37, 99, 235, 0.08);
         }
         .dataframe {
             overflow-x: auto;
-            display: block;
+        }
+        .planexe-report-info,
+        .source-info {
+            font-size: 0.92rem;
+            color: var(--plx-muted);
         }
         .source-info {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 10px;
+            margin-top: 0.75rem;
             font-style: italic;
         }
-        .collapsible {
-            background-color: #3498db;
-            color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            border-radius: 5px;
-            text-align: left;
-            outline: none;
-            font-size: 18px;
-            font-weight: bold;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            position: relative;
-        }
-        .collapsible:hover {
-            background-color: #2980b9;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-        }
-        .collapsible:after {
-            content: '+';
-            position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            transition: transform 0.3s ease;
-        }
-        .active:after {
-            content: "−";
-        }
-        .content {
-            padding: 0 20px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.2s ease-out;
-        }
-
-        /* The "Question/Answer" section */
         .question-answer-pair {
-            margin-bottom: 20px; /* Adds vertical space between each Q&A pair */
-            padding-bottom: 15px; /* Adds space below the Answer text before the separator */
-            border-bottom: 1px solid #eee; /* Adds a subtle grey line to separate pairs */
-        }
-        .question-answer-pair:first-of-type {
-            padding-top: 10px;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--plx-border);
         }
         .question-answer-pair:last-of-type {
             margin-bottom: 0;
-            padding-bottom: 20px;
             border-bottom: none;
         }
         .question-answer-pair p:first-child {
-            font-weight: bold; /* Ensures the whole Question line is bold */
-            margin-bottom: 10px; /* Adds a small space between the Question and the Answer */
-            color: #34495e; /* Optional: makes the question color slightly different */
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            color: var(--plx-heading);
         }
-        .question-answer-pair p:last-child {
-            margin-top: 5px; /* Adds a small space between the Question and the Answer */
-            margin-bottom: 0; /* Removes default bottom margin from the last paragraph */
+        .planexe-execute-check {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            margin: 1.5rem 0 1.75rem;
+            font-size: 0.96rem;
+            color: var(--plx-muted);
+        }
+        .planexe-execute-check label {
+            cursor: pointer;
+        }
+        .planexe-execute-check input[type="checkbox"] {
+            width: 1.2rem;
+            height: 1.2rem;
+            accent-color: var(--plx-primary);
+            cursor: pointer;
+        }
+        .planexe-execute-actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        #planexe-execute-button-warning {
+            display: none;
+            margin-left: 1.2rem;
+            color: #f97316;
+            font-size: 1.05rem;
+            font-weight: 600;
+            vertical-align: middle;
+        }
+        #planexe-execute-message {
+            margin-top: 1.2rem;
+        }
+        .fancy-execute-btn {
+            background: linear-gradient(120deg, var(--plx-primary) 0%, var(--plx-accent) 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: var(--plx-radius-md);
+            padding: 0.95rem 2.4rem;
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 20px 45px rgba(37, 99, 235, 0.28);
+            transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease, color 200ms ease, border 200ms ease;
+        }
+        .fancy-execute-btn:hover:not(:disabled),
+        .fancy-execute-btn:focus-visible:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 26px 55px rgba(37, 99, 235, 0.32);
+        }
+        .fancy-execute-btn.execute-active {
+            background: #ffffff;
+            color: var(--plx-primary);
+            border: 2px solid rgba(37, 99, 235, 0.35);
+            box-shadow: var(--plx-shadow-soft);
+        }
+        .fancy-execute-btn.execute-active:hover,
+        .fancy-execute-btn.execute-active:focus-visible {
+            transform: translateY(-2px);
+            box-shadow: 0 18px 40px rgba(37, 99, 235, 0.25);
+        }
+        .fancy-execute-btn:disabled {
+            background: rgba(148, 163, 184, 0.24);
+            color: rgba(15, 23, 42, 0.45);
+            border: 1px dashed rgba(148, 163, 184, 0.5);
+            box-shadow: none;
+            cursor: not-allowed;
+        }
+        .fancy-execute-btn.executing {
+            background: linear-gradient(120deg, rgba(37, 99, 235, 0.85), rgba(124, 58, 237, 0.95));
+            transform: translateY(0);
+            box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.32);
+            animation: plx-pulse 1.1s ease-in-out infinite;
+        }
+        .fancy-execute-btn.ready {
+            background: #22c55e;
+            color: #0f172a;
+            border: none;
+            box-shadow: 0 20px 45px rgba(34, 197, 94, 0.35);
+        }
+        .fancy-execute-btn .spinner {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 0.75rem;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.35);
+            border-top-color: #ffffff;
+            animation: spin 0.85s linear infinite;
+            vertical-align: middle;
+        }
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes plx-pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 16px rgba(37, 99, 235, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+            }
+        }
+        @media (max-width: 900px) {
+            .planexe-report {
+                padding: 2.5rem 1.6rem 3.5rem;
+            }
+            .planexe-report__header,
+            .planexe-report__body {
+                padding: 2.4rem 1.9rem;
+            }
+            .collapsible {
+                padding: 1.25rem 1.9rem;
+            }
+            .content {
+                padding: 0 1.9rem;
+            }
+            .content.open {
+                padding: 1.6rem 1.9rem 2.1rem;
+            }
+        }
+        @media (max-width: 600px) {
+            .planexe-report__meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .planexe-execute-check {
+                align-items: flex-start;
+            }
+            .planexe-execute-check input[type="checkbox"] {
+                margin-top: 0.3rem;
+            }
         }
     </style>
     
@@ -162,55 +450,96 @@
   <script src="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.js"></script>
   <style>
     .gantt_container_with_controls {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin: 2.5rem 0;
+        padding: 1.4rem;
+        background: var(--plx-surface);
+        border: 1px solid var(--plx-border);
+        border-radius: var(--plx-radius-md);
+        box-shadow: var(--plx-shadow-soft);
     }
     .gantt_container {
         width: 100%;
-        height: 80vh;
-        margin-bottom: 1rem;
+        height: 72vh;
+        margin-bottom: 1.2rem;
+        border: 1px solid var(--plx-border);
+        border-radius: var(--plx-radius-sm);
+        overflow: hidden;
+        background: var(--plx-surface-muted);
     }
     .gantt_tooltip {
         max-width: 30rem;
         white-space: break-spaces;
+        background: var(--plx-surface);
+        color: var(--plx-text);
+        border: 1px solid var(--plx-border);
+        border-radius: var(--plx-radius-sm);
+        box-shadow: var(--plx-shadow-soft);
+        padding: 0.85rem 1rem;
     }
     .gantt-controls {
         display: flex;
-        gap: 0.5rem;
-        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
         align-items: center;
-        margin-bottom: 1rem;
-        position: relative;
+        justify-content: space-between;
+        margin-bottom: 1.2rem;
     }
-    .zoom-buttons {
+    .gantt-controls .zoom-buttons {
         display: flex;
-        gap: 0.5rem;
+        flex-wrap: wrap;
+        gap: 0.75rem;
         justify-content: center;
     }
-    .export-button {
-        position: absolute;
-        right: 0;
+    .gantt-controls .export-button {
+        margin-left: auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
     .gantt-controls button {
-        padding: 0.5rem 1rem;
-        border: 1px solid #ccc;
-        border-radius: 0.25rem;
-        background: white;
+        padding: 0.55rem 1.2rem;
+        border: 1px solid rgba(37, 99, 235, 0.18);
+        border-radius: var(--plx-radius-sm);
+        background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(124, 58, 237, 0.08));
+        color: var(--plx-heading);
         cursor: pointer;
-        font-size: 0.9rem;
+        font-size: 0.92rem;
+        font-weight: 600;
+        transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
     }
     .gantt-controls button:hover {
-        background: #f5f5f5;
+        transform: translateY(-2px);
+        box-shadow: 0 14px 28px rgba(37, 99, 235, 0.18);
+        border-color: rgba(37, 99, 235, 0.35);
+    }
+    .gantt-controls button:focus-visible {
+        outline: 2px solid rgba(37, 99, 235, 0.4);
+        outline-offset: 2px;
+    }
+    .gantt-controls button:disabled {
+        opacity: 0.55;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
     }
     .project-task.gantt_task_line {
-        background-color: #b67134;
-        border-color: #f57c00;
+        background-color: #4f46e5;
+        border-color: #4338ca;
     }
     .project-task .gantt_task_content {
-        color: white;
+        color: #ffffff;
+        font-weight: 600;
     }
     .project-task.gantt_project.gantt_task_line {
-        border-radius: 0;
+        border-radius: 4px;
+    }
+    @media (max-width: 720px) {
+        .gantt-controls {
+            justify-content: center;
+        }
+        .gantt-controls .export-button {
+            margin-left: 0;
+        }
     }
   </style>
   
@@ -218,9 +547,21 @@
 <body>
     <!--CONTENT-START-->
 
-        <h1>CDC Restructure</h1>
-        <p class="planexe-report-info">Generated on: 2025-09-17 21:14:39 with PlanExe. <a href="https://neoneye.github.io/PlanExe-web/discord.html">Discord</a>, <a href="https://github.com/neoneye/PlanExe">GitHub</a></p>
-        
+    <div class="planexe-report">
+      <div class="planexe-report__surface">
+        <header class="planexe-report__header">
+          <span class="planexe-report__eyebrow">PlanExe Scenario</span>
+          <h1 class="planexe-report__title">CDC Restructure</h1>
+          <p class="planexe-report__subtitle">Structured execution blueprint generated by PlanExe. Adapt and remix for any high-stakes transformation.</p>
+          <div class="planexe-report__meta">
+            <span>Generated on: 2025-09-17 21:14:39 with PlanExe</span>
+            <span class="planexe-report__meta-divider">•</span>
+            <a href="https://neoneye.github.io/PlanExe-web/discord.html">Discord</a>
+            <span class="planexe-report__meta-divider">•</span>
+            <a href="https://github.com/neoneye/PlanExe">GitHub</a>
+          </div>
+        </header>
+        <main class="planexe-report__body">
 
             <div class="section">
                 <button class="collapsible">Executive Summary</button>
@@ -4992,17 +5333,22 @@ Define specific, measurable, achievable, relevant, and time-bound (SMART) metric
     <div class="section section-execute-plan-hidden">
         <button class="collapsible">Execute Plan</button>
         <div class="content">        
-            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 18px; margin-top: 18px;">
+            <div class="planexe-execute-check">
                 <input type="checkbox" id="planexe-execute-confirm-checkbox">
-                <label for="planexe-execute-confirm-checkbox" style="cursor:pointer;">I hereby acknowledge the consequences, outlined within this plan.</label>
+                <label for="planexe-execute-confirm-checkbox">I hereby acknowledge the consequences, outlined within this plan.</label>
             </div>
-            <button id="planexe-execute-button" class="fancy-execute-btn" disabled>Execute</button>
-            <span id="planexe-execute-button-warning" style="display:none; margin-left: 16px; color: #d35400; font-size: 1.08em; vertical-align: middle;">⚠️ Ready to execute! ⚠️</span>
-            <div id="planexe-execute-message" style="margin-top:18px;"></div>
+            <div class="planexe-execute-actions">
+                <button id="planexe-execute-button" class="fancy-execute-btn" disabled>Execute</button>
+                <span id="planexe-execute-button-warning">⚠️ Ready to execute! ⚠️</span>
+            </div>
+            <div id="planexe-execute-message"></div>
         </div>
     </div>
 
-    
+      </main>
+    </div>
+  </div>
+
 
 
 <script type="module">
@@ -8213,9 +8559,11 @@ Define specific, measurable, achievable, relevant, and time-bound (SMART) metric
             coll[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
-                if (content.style.maxHeight){
+                if (content.classList.contains("open")) {
+                    content.classList.remove("open");
                     content.style.maxHeight = null;
                 } else {
+                    content.classList.add("open");
                     content.style.maxHeight = content.scrollHeight + "px";
                 }
             });
