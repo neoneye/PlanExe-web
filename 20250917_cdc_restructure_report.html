@@ -15,12 +15,12 @@
     <style>
         body { 
             font-family: Arial, sans-serif; 
-            margin: 40px;
             line-height: 1.6;
             color: #333;
-            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            max-width: 1320px;
+            background-color: #fff;
         }
         h1 { 
             color: #2c3e50;
@@ -139,6 +139,80 @@
             margin-top: 5px; /* Adds a small space between the Question and the Answer */
             margin-bottom: 0; /* Removes default bottom margin from the last paragraph */
         }
+
+        .report-layout {
+            display: grid;
+            grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+            gap: 24px;
+        }
+        .report-sidemenu {
+            position: sticky;
+            top: 20px;
+            align-self: start;
+            background-color: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 16px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .report-sidemenu__title {
+            font-size: 0.9em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #555;
+            margin-bottom: 12px;
+        }
+        .report-sidemenu__list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .report-sidemenu__item a {
+            display: block;
+            padding: 6px 8px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #34495e;
+            font-size: 0.95em;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .report-sidemenu__item a:hover,
+        .report-sidemenu__item a:focus {
+            background-color: #e8f3fb;
+            color: #1b6fa8;
+            outline: none;
+        }
+        .report-sidemenu__item a.is-active {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .report-content {
+            min-width: 0;
+        }
+        @media (max-width: 1024px) {
+            .report-layout {
+                grid-template-columns: 1fr;
+            }
+            .report-sidemenu {
+                position: static;
+                max-height: none;
+                margin-bottom: 20px;
+            }
+        }
+        @media print {
+            .report-layout {
+                display: block;
+            }
+            .report-sidemenu {
+                display: none;
+            }
+        }
     </style>
     
   <script type="module">
@@ -217,9 +291,15 @@
 </head>
 <body>
     <!--CONTENT-START-->
+    <div class="report-layout">
+        <nav class="report-sidemenu" aria-label="Plan sections">
+            <div class="report-sidemenu__title">Contents</div>
+            <ul class="report-sidemenu__list" id="report-sidemenu-list"></ul>
+        </nav>
 
-        <h1>CDC Restructure</h1>
-        <p class="planexe-report-info">Generated on: 2025-09-17 21:14:39 with PlanExe. <a href="https://neoneye.github.io/PlanExe-web/discord.html">Discord</a>, <a href="https://github.com/neoneye/PlanExe">GitHub</a></p>
+        <div class="report-content">
+            <h1>CDC Restructure</h1>
+            <p class="planexe-report-info">Generated on: 2025-09-17 21:14:39 with PlanExe. <a href="https://neoneye.github.io/PlanExe-web/discord.html">Discord</a>, <a href="https://github.com/neoneye/PlanExe">GitHub</a></p>
         
 
             <div class="section">
@@ -4987,6 +5067,8 @@ Define specific, measurable, achievable, relevant, and time-bound (SMART) metric
                 </div>
             </div>
             
+        </div>
+    </div>
 <!--CONTENT-END-->
 
     <div class="section section-execute-plan-hidden">
@@ -8220,6 +8302,130 @@ Define specific, measurable, achievable, relevant, and time-bound (SMART) metric
                 }
             });
         }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navList = document.getElementById('report-sidemenu-list');
+            const sideMenu = document.querySelector('.report-sidemenu');
+            if (!navList || !sideMenu) {
+                return;
+            }
+
+            const sections = Array.from(document.querySelectorAll('.report-content .section'));
+            const usedIds = new Set(Array.from(document.querySelectorAll('[id]')).map(function (el) {
+                return el.id;
+            }));
+            const trackedSections = [];
+            const linkBySection = new Map();
+
+            function slugify(text, fallback) {
+                const normal = text && text.normalize ? text.normalize('NFKD') : text;
+                const ascii = (normal || '')
+                    .replace(/[\u0300-\u036f]/g, '')
+                    .toLowerCase()
+                    .replace(/[^a-z0-9\s-]/g, '')
+                    .trim()
+                    .replace(/\s+/g, '-');
+                const base = ascii || fallback;
+                let candidate = base;
+                let suffix = 2;
+                while (usedIds.has(candidate)) {
+                    candidate = base + '-' + suffix;
+                    suffix += 1;
+                }
+                usedIds.add(candidate);
+                return candidate;
+            }
+
+            sections.forEach(function (section, index) {
+                const trigger = section.querySelector('.collapsible');
+                if (!trigger) {
+                    return;
+                }
+                const label = trigger.textContent.trim() || 'Section ' + (index + 1);
+                if (!section.id) {
+                    section.id = slugify(label, 'section-' + (index + 1));
+                } else {
+                    usedIds.add(section.id);
+                }
+
+                const item = document.createElement('li');
+                item.className = 'report-sidemenu__item';
+
+                const link = document.createElement('a');
+                link.href = '#' + section.id;
+                link.textContent = label;
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    if (!trigger.classList.contains('active')) {
+                        trigger.click();
+                    }
+                    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    linkBySection.forEach(function (menuLink, key) {
+                        menuLink.classList.toggle('is-active', key === section.id);
+                    });
+                    if (window.history && window.history.replaceState) {
+                        window.history.replaceState(null, '', '#' + section.id);
+                    }
+                });
+
+                item.appendChild(link);
+                navList.appendChild(item);
+                trackedSections.push(section);
+                linkBySection.set(section.id, link);
+            });
+
+            if (!trackedSections.length) {
+                sideMenu.style.display = 'none';
+                return;
+            }
+
+            function updateActiveLink() {
+                const scrollOffset = 150;
+                let currentId = trackedSections[0].id;
+
+                for (let idx = 0; idx < trackedSections.length; idx += 1) {
+                    const rect = trackedSections[idx].getBoundingClientRect();
+                    if (rect.top - scrollOffset <= 0) {
+                        currentId = trackedSections[idx].id;
+                    } else {
+                        break;
+                    }
+                }
+
+                linkBySection.forEach(function (link, key) {
+                    link.classList.toggle('is-active', key === currentId);
+                });
+            }
+
+            let ticking = false;
+            window.addEventListener('scroll', function () {
+                if (ticking) {
+                    return;
+                }
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateActiveLink();
+                    ticking = false;
+                });
+            });
+
+            updateActiveLink();
+
+            if (window.location.hash) {
+                const targetId = window.location.hash.substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection && trackedSections.includes(targetSection)) {
+                    const targetTrigger = targetSection.querySelector('.collapsible');
+                    if (targetTrigger && !targetTrigger.classList.contains('active')) {
+                        targetTrigger.click();
+                    }
+                    window.requestAnimationFrame(function () {
+                        targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    });
+                }
+            }
+        });
     </script>
     <script>
 // Checkbox controls button enable/disable and button text
