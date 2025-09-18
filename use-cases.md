@@ -28,6 +28,13 @@ permalink: /use-cases/
       <div class="planexe-card__body">
         {{ item.description | markdownify }}
       </div>
+      {% if item.tags %}
+      <div class="planexe-card__tags">
+        {% for tag in item.tags %}
+        <span class="planexe-tag planexe-tag--{{ tag.classification | default: 'default' | downcase | replace: ' ', '-' }}">{{ tag.label }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
       <a class="planexe-link--arrow" href="{{ item.report_link | relative_url }}">View plan</a>
     </article>
     {% endfor %}
@@ -48,6 +55,13 @@ permalink: /use-cases/
       <div class="planexe-card__body">
         {{ item.description | markdownify }}
       </div>
+      {% if item.tags %}
+      <div class="planexe-card__tags">
+        {% for tag in item.tags %}
+        <span class="planexe-tag planexe-tag--{{ tag.classification | default: 'default' | downcase | replace: ' ', '-' }}">{{ tag.label }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
       <a class="planexe-link--arrow" href="{{ item.report_link | relative_url }}">View plan</a>
     </article>
     {% endfor %}
