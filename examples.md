@@ -5,10 +5,10 @@ permalink: /examples/
 ---
 
 <header class="post-header planexe-examples-header">
-<h1 class="post-title">PlanExe Use Cases</h1>
+<h1 class="post-title">Example Plans</h1>
 <div class="header-description">
-    <p class="subtitle">Describe your idea, budget, location. PlanExe turns it into a plan.</p>
-    <p class="description">A starting point for those who’d rather not begin with a blank page.</p>
+    <p class="subtitle">See what PlanExe can create from a project description.</p>
+    <p class="description">A plan include tasks, timeline, risks, dependencies and staffing.</p>
 </div>
 </header>
 
