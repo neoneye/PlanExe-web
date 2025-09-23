@@ -40,8 +40,6 @@ title: Homepage of PlanExe
 {% endif %}
 {% endfor %}
 
-More plans: [Here]({{ '/use-cases/'  | relative_url}}).
-
 ## Get involved
 
 Introduce yourself on the PlanExe Discord and ask how you can help.
