@@ -12,7 +12,7 @@ permalink: /examples/
 </div>
 </header>
 
-{% for item in site.data.usecases %}
+{% for item in site.data.examples %}
 <div class="use-case-card">
 <h2>{{ item.title }}</h2>
 <p>{{ item.description | markdownify }}</p>
@@ -21,7 +21,7 @@ permalink: /examples/
 {% endfor %}
 
 
-{% for item in site.data.usecases_legacy %}
+{% for item in site.data.examples_legacy %}
 <div class="use-case-card">
 <h2>{{ item.title }}</h2>
 <p>{{ item.description | markdownify }}</p>

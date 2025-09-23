@@ -30,7 +30,7 @@ title: Homepage of PlanExe
 
 ## Example plan
 
-{% for item in site.data.usecases %}
+{% for item in site.data.examples %}
 {% if item.featured %}
 <div class="use-case-card">
 <h2>{{ item.title }}</h2>
