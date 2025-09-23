@@ -1,5 +1,4 @@
 ---
 title: Use-cases
-redirect_to:
-  - /examples/
+redirect_to: /examples
 ---
