@@ -19,9 +19,9 @@ title: Homepage of PlanExe
 
 ## Why use it
 
+- Save money. Don't fund doomed projects.
 - Save time. It's time consuming to manually create a plan.
-- Discover risks before they happen. Mistakes can be expensive.
-- Get rough estimates of what resources are needed.
+- Avoid surprises. Uncover pitfalls early.
 
 ## How to use it
 
