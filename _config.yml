@@ -16,7 +16,7 @@ minima:
 
 minima:
   nav_pages:
-    - use-cases.md
+    - examples.md
     - discord.md
     - github.md
 
