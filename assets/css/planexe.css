@@ -1,5 +1,5 @@
 /* Styles for the overall card container */
-.use-case-card {
+.examples-card {
     border: 1px solid #eee;
     padding: 20px;
     margin-bottom: 30px; /* Adds space below each card */
@@ -8,7 +8,7 @@
 }
   
 /* Styles for the heading inside the card */
-.use-case-card h2 {
+.examples-card h2 {
     color: #333;
     margin-top: 0;
     margin-bottom: 15px;
@@ -19,41 +19,41 @@
 }
 
 /* Styles for the paragraph description inside the card */
-.use-case-card p {
+.examples-card p {
     line-height: 1.6;
     color: #555;
     margin-bottom: 15px;
 }
 
 /* Styles for any links inside the card (including links from markdownify and the View Report link) */
-.use-case-card a {
+.examples-card a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
 }
 
-.use-case-card a:hover {
+.examples-card a:hover {
     text-decoration: underline;
 }
 
-.use-case-card a.use-case-card-arrow-link::after {
+.examples-card a.examples-card-arrow-link::after {
     content: '→';
     margin-left: 0.5rem;
 }
 
-.planexe-usecases-header {
+.planexe-examples-header {
     margin-bottom: 40px;
     border-bottom: none;
 }
 
-.planexe-usecases-header h1 {
+.planexe-examples-header h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-weight: 750;
 }
 
-.planexe-usecases-header .subtitle {
+.planexe-examples-header .subtitle {
     font-size: 1.2rem;
 }
 
