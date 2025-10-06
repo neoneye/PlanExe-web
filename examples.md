@@ -20,7 +20,7 @@ permalink: /examples/
 </div>
 {% endif %}
 <div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
-<a class="examples-card-arrow-link" href="../{{ item.report_link }}">View Plan</a>
+<a class="examples-card-arrow-link" href="../{{ item.report_link }}"></a>
 </div>
 {% endfor %}
 
@@ -34,6 +34,6 @@ permalink: /examples/
 </div>
 {% endif %}
 <div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
-<a href="{{ item.download_link }}">Download Plan</a>
+<a href="{{ item.download_link }}"></a>
 </div>
 {% endfor %}

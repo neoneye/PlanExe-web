@@ -39,7 +39,7 @@ title: Homepage of PlanExe
 </div>
 {% endif %}
 <div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
-<a class="examples-card-arrow-link" href="{{ item.report_link }}">View Plan</a>
+<a class="examples-card-arrow-link" href="{{ item.report_link }}"></a>
 </div>
 {% endif %}
 {% endfor %}

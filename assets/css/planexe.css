@@ -5,6 +5,16 @@
     margin-bottom: 30px; /* Adds space below each card */
     border-radius: 8px;
     background-color: white;
+    position: relative; /* Make it a positioning context for the stretched link */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+/* Add a hover effect to the entire card */
+.examples-card:hover {
+    transform: translateY(-4px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a more prominent shadow */
+    border-color: #007bff; /* Highlight with a blue border */
+    cursor: pointer; /* Show it's clickable */
 }
   
 /* Styles for the heading inside the card */
@@ -37,7 +47,7 @@
     position: relative;
 }
 
-/* Styles for any links inside the card (including links from markdownify and the View Report link) */
+/* Styles for any links inside the card */
 .examples-card a {
     color: #007bff;
     text-decoration: none;
@@ -49,9 +59,25 @@
     text-decoration: underline;
 }
 
-.examples-card a.examples-card-arrow-link::after {
-    content: '→';
-    margin-left: 0.5rem;
+/* The main link is now a stretched overlay */
+.examples-card a.examples-card-arrow-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    /* Reset styles to be invisible */
+    font-size: 0;
+    font-weight: normal;
+    color: transparent;
+}
+
+/* Ensure inner links are clickable above the main card link */
+.examples-card-description a,
+.examples-card-prompt a {
+    position: relative;
+    z-index: 2;
 }
 
 .planexe-examples-header {
