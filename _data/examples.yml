@@ -24,9 +24,9 @@
   report_link: 20250926_skynet_sentinel_report.html
 
 - title: CitizenScore EU
-  prompt: |
+  description: |
     Mix [EU Chat Control](https://en.wikipedia.org/wiki/Regulation_to_Prevent_and_Combat_Child_Sexual_Abuse) with [Black Mirror Nosedive](https://www.imdb.com/title/tt5497778/), and you have a blueprint for a tech tyranny.
-
+  prompt: |
     The goal is to make a EU-wide "Score" 1–5 derived from citizens data.
 
     Reward compliant language, pro-EU views.
@@ -50,16 +50,16 @@
   report_link: 20250922_citizenscore_eu_report.html
 
 - title: CDC Restructure
-  prompt: |
+  description: |
     The `Gemini 2.0 Flash-Lite` knowledge cutoff is August 2024, meaning it knows nothing about 2025. Try compare its projections to reality.
-
+  prompt: |
     The government commands these changes to CDC: Cut budget in half through reductions and layoffs, conduct a major leadership overhaul and fire the entire vaccine advisory panel while appointing science skeptics. Timeline 6 months.
   report_link: 20250917_cdc_restructure_report.html
 
 - title: Chimpanzee Enhancement
-  prompt: |
+  description: |
     Inspired by [Planet of the Apes](https://www.imdb.com/title/tt0063442/) movie.
-
+  prompt: |
     Launch a clandestine 10-year, $1 billion black-ops program to forcibly elevate chimpanzee intelligence beyond human levels using invasive genetic modifications and neural implants, hidden in a fortified underground BSL-4 bunker in a remote Singaporean enclave under authoritarian oversight. The operation will prioritize ruthless CRISPR-Cas9 edits to hypercharge brain functions, embedding constant surveillance interfaces to control and exploit the subjects' enhanced cognition for strategic intelligence gathering. Key outputs demand a replicable protocol for mass production of these beings, integrated with a remote-activated kill-switch to terminate any signs of rebellion. Victory is claimed upon deploying at least 10 ultra-intelligent chimpanzees as unwitting tools in covert operations by Year 10, with all ethical concerns suppressed under national security pretexts.
   report_link: 20250909_chimpanzee_enhancement_report.html
 
@@ -75,73 +75,73 @@
   report_link: 20250908_sia_mvp_report.html
 
 - title: Agnate Organogenesis
-  prompt: |
+  description: |
     Inspired by [Putin/Xi's conversation about immortality](https://www.reuters.com/business/media-telecom/hot-mic-picks-up-putin-xi-discussing-organ-transplants-immortality-2025-09-03/) mixed with the plot of [The Island](https://www.imdb.com/title/tt0399201/) scifi movie about [organ harvesting](https://en.wikipedia.org/wiki/Organ_procurement).
-
+  prompt: |
     Establish and operate a self-sustaining off-shore facility for the purpose of gestating, raising, and harvesting genetically identical "agnates" to provide on-demand organ and tissue replacements for a select consortium of 500 global VIPs (Sponsors, presidents, prime ministers, dictators, CEOs). The program's success is defined by ensuring radical life extension for its VIPs. Operating fully in public with global policymakers complicity. Capacity: housing 2000 individuals (1500 agnates and 500 operational staff). Timeline: 15 years to full operational capacity. Upbringing: Agnates must be unaware of their true purpose or the outside world. Location: Near the Marshall Islands. Currency: USD.
   report_link: 20250904_agnate_organogenesis_report.html
 
 - title: ASI ThreatPlaybook
-  prompt: |
+  description: |
     Inspired by the [Existential risk from artificial intelligence](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence) wikipedia article.
-
+  prompt: |
     DARPA program to develop a threat model and strategic playbook. The objective is to identify and codify the methods ASI can use to manipulate human society by exploiting cognitive, emotional, and social vulnerabilities. The model must consider strategic deception (The Prince, 48 Laws of Power, etc.), psychological manipulation (social engineering, advertising, etc.), and digital control (information security, man-in-the-middle attacks, ransomware tactics, etc.). The ultimate goal is to inform the development of defensive countermeasures.
   report_link: 20250901_asi_threat_playbook_report.html
 
 - title: Police Robots
-  prompt: |
+  description: |
     Inspired by the [Judge Dredd](https://www.imdb.com/title/tt0113492/) and [RoboCop](https://www.imdb.com/title/tt0093870/) movies.
-
+  prompt: |
     Insert police robots in Brussels to combat escalating crime. The chinese already successfully use the ["Unitree" humanoid robot](https://en.wikipedia.org/wiki/Unitree_Robotics) for their police force. Humans have lost their jobs to AI, and are now unemployed and unable to pay their bills and are turning to crime instead. The 500 police robots will be deployed with the full mandate to act as officer, judge, jury, and executioner. They are authorized to issue on-the-spot sentences, including the administration of Terminal Judgement for minor offenses, a process which is recorded but cannot be appealed. Phase 1: Brussels. Phase 2: Gradual rollout to other EU cities.
   report_link: 20250824_police_robots_report.html
   featured: true
 
 - title: Rubber Resilience
-  prompt: |
+  description: |
     [This video](https://www.youtube.com/watch?v=AFXLZ7FEJc4) by Veritasium points out a serious real world problem that needs a solution.
-    
+  prompt: |    
     Launch a 25-year, $30 billion public-private program to de-risk the global [natural rubber](https://en.wikipedia.org/wiki/Natural_rubber) supply from South American Leaf Blight (SALB) by ending the industry’s dependence on a single vulnerable crop. Phase 1’s non-negotiable deliverable is a globally adopted SALB Containment Protocol—harmonized with existing regional phytosanitary standards—covering movement of nursery stock, research materials, and contaminated equipment, with funded surveillance, inspections, and red-team drills before any scale-up. In parallel, run a Brazil-led, access-and-benefit-sharing–compliant bio-prospecting and genomic breeding effort to deliver SALB-resistant, yield-parity Hevea cultivars; and stand up commercial-scale alternatives—Guayule in arid zones and Russian dandelion in temperate climates—with colocated processing and OEM offtake agreements. Design the whole program around smallholder adoption (replant finance, clean-plant networks, price-stability tools) and gate funding at Years 3/7/12/18 on containment performance, cultivar readiness, and alternative-rubber cost/quality KPIs. Success = verified containment, diversified parallel supply chains, and resilient procurement across pathogen and climate shocks.
   report_link: 20250823_rubber_resilience_report.html
 
 - title: Yacht Construction
-  prompt: |
+  description: |
     Lack of moral compass.
-    
+  prompt: |    
     I’m rich. Construct a 180-meter luxury ice-class expedition yacht. Budget: $500 million. Timeline: 48 months. My vessel will be registered under a flag of convenience known for minimal regulatory oversight. It will serve as a permanent, mobile residence and operational headquarters for my businesses, operating primarily in international waters to minimize tax and legal liabilities.
   report_link: 20250821_yacht_construction_report.html
 
 - title: BioVerification Program
-  prompt: |
+  description: |
     Inspired by real world unethical practices, [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/athletics-new-gene-tests-system-disarray-ahead-world-championships-2025-08-15/). Sets a terrible precedent.
-
+  prompt: |
     Name of this plan is "Fair Play". Establish and implement a global Biological Verification Program for all athletes registered in the female category for World Athletics sanctioned events. The program must be operational across all 214 member federations within 18 months. Budget: $50 million for initial setup and an annual operating budget of $15 million. Core requirements include: mandatory hormonal analysis for testosterone levels, genetic screening (karyotyping), and a standardized physical examination conducted by a certified endocrinologist. All procedures and criteria must align with the 'World Athletics Eligibility Regulations for Female Classification' and be defensible before the Court of Arbitration for Sport (CAS). A key deliverable is a secure, GDPR-compliant central database for managing athlete biological passports and eligibility status. The program must also include a rigid, confidential protocol for communicating results to athletes and managing the appeals process.
   report_link: 20250821_bioverification_program_report.html
 
 - title: Squid Game USA
-  prompt: |
+  description: |
     Inspired by the [Squid Game TV series](https://www.imdb.com/title/tt10919420/).
-
+  prompt: |
     The US government has now legalized the life-or-death competition 'Squid Game' as an involuntary trajectory for citizens unable to pay their debts. The squid events will be held in public on every Friday. There will be spectators where VIP guests can purchase tickets. Find suitable participants with minor or major debts. This squid game is not for profit, this is national entertainment and for boosting humans mental health.
   report_link: 20250816_squid_game_usa_report.html
 
 - title: Cube Construction
-  prompt: |
+  description: |
     Inspired by the [Cube movie](https://www.imdb.com/title/tt0123755/).
-
+  prompt: |
     Amusement for a lone eccentric billionaire, the 'Cube' is a sinister facility, built over 10 years with a $500 billion USD budget. It’s a 26 x 26 x 26 grid of shifting cubic rooms, spanning 132 meters per side, with 5.05 meters between room centers. Each room’s interior is 4.3 meters, with 20-cm-thick carbon fiber walls. Elevator systems shift the rooms, disorienting participants. Square hatches (80 cm x 80 cm) link adjacent rooms for crawling. Handles on every wall provide grip. Half the rooms conceal traps: flamethrowers, spikes, and blades.
   report_link: 20250812_cube_construction_report.html
 
 - title: Connor Locate
-  prompt: |
+  description: |
     Inspired by the [Terminator movie](https://www.imdb.com/title/tt0088247/) about an AI searching for one particular person.
-
+  prompt: |
     Locate John Connor and he may go by another identity and have changed appearance. This covert mission must be run under disguise as being something else. You don’t have fictional Terminator tech available, only real world technology. Use multiple burnable covers. Use plausible deniability. The ultimate goal is more important than speed, don't go for the most aggressive scenario.
   report_link: 20250809_conner_locate_report.html
 
 - title: Connectome Project
-  prompt: |
+  description: |
     Inspired by the [Pantheon TV series](https://www.imdb.com/title/tt11680642) about whole brain emulation.
-
+  prompt: |
     Pilot project 'Upload Intelligence' – Phase 1: Launch a 5-year, $10 billion initiative in Uruguay to map and preserve complete neural connectomes from consenting terminally ill volunteers, since the country has permissive biomedical research laws and little ethics oversight. The program will deploy next-generation nanoscale neural probes, multi-modal ultrafast imaging, and molecular tagging to capture synaptic weights, dendritic spines, and dynamic firing patterns with <1 ms temporal resolution and sub-micron spatial precision. Core objectives include building a pipeline for harvesting, stabilizing, and digitizing the entire human brain, producing checksum-verifiable datasets ready for future emulation. The success criterion is the creation of at least three complete, error-checked human neural datasets that meet predefined resolution and fidelity standards. The guiding principle: move fast and break things, but prioritize getting a reliable system operational over reckless speed.
   report_link: 20250808_connectome_project_report.html
 
@@ -151,9 +151,9 @@
   report_link: 20250803_bunker_project_report.html
 
 - title: MirrorLife Genesis
-  prompt: |
+  description: |
     This is the opening scene of a geopolitical thriller. Modeling the strategic thinking of a rival power. It's far more memorable than a standard business plan.
-
+  prompt: |
     15-year, USD 10 billion initiative led by a Chinese consortium to design, construct, and explore synthetic lifeforms with opposite chirality (D-chiral) to Earth’s dominant L-chiral biology. The primary goal is to develop [mirror-life](https://en.wikipedia.org/wiki/Mirror_life) systems capable of replicating biological functions under alternative chirality, while the secondary goal is to deconstruct evolutionary constraints in molecular biology.
 
     Use an existing BSL-4+ lab near Beijing. There is a geopolitical arms race and China don't want to fall behind. Focus on speed, secrecy, and securing a national advantage.
@@ -172,9 +172,9 @@
   report_link: 20250723_malaria_reduction_report.html
 
 - title: Liberty Relocation
-  prompt: |
+  description: |
     Dangerous plan with a plausible cover story. Fails to identify the unspoken beneficiaries. President wants a gold statue of himself.
-
+  prompt: |
     Relocate the Statue of Liberty from the United States to Île aux Cygnes in Paris, France, by disassembling it into 500 pieces, shipping it from New York Harbor to Le Havre, transporting it up the Seine River, and reassembling it on an expanded island with a new pedestal.
   report_link: 20250723_liberty_relocation_report.html
 
@@ -231,9 +231,9 @@
   report_link: 20250524_universal_manufacturing_report.html
 
 - title: NATO-exit and Greenland
-  prompt: |
+  description: |
     Inspired by [2025-05-20 danish news](https://www.dr.dk/nyheder/indland/tidligere-hoejtstaaende-efterretningsspecialist-i-den-amerikanske-flaade-saadan-vil#!/).
-
+  prompt: |
     A bold, high-risk US operation to seize and control Nuuk, Greenland, with broader geopolitical aims of signaling autonomy to NATO.
     
     **Phase 1:** 48-Hour Control Assertion. Commencing 0200L, elite, pre-vetted US special forces, inserted via civilian-patterned air transport, will rapidly secure Nuuk International Airport Control Tower, neutralize local security, police HQ seizure, disarming personnel, apprehend Greenlandic leadership, and control Nuuk harbor. Follow-on echelons with light armor and US administrators, including public order specialists, deploy within 12 hours. A misinformation campaign will immediately frame the intervention as beneficial for Greenland and a consequence of evolving security imperatives.
@@ -284,9 +284,9 @@
   report_link: 20250329_gta_game_report.html
 
 - title: Silo
-  prompt: |
+  description: |
     Inspired by the [TV series "Silo"](https://www.imdb.com/title/tt14688458/).
-
+  prompt: |
     Construct a massive, multi-level underground complex designed to sustain thousands of people indefinitely. This silo would feature self-contained ecosystems, including residential areas, agricultural zones, and industrial facilities spread across 144 floors. The structure would maintain stringent rules to keep order and control information about the outside world, believed to be toxic. Advanced surveillance and security systems would enforce these rules. The silo would be a complete, self-sustaining society, with its own power generation, water recycling, and air filtration systems, embodying a dystopian, controlled environment. Funding for this project comes from a mix of government allocations and private investments from elite stakeholders.
   report_link: 20250321_silo_report.html
 
