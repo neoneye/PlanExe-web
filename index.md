@@ -7,13 +7,12 @@ title: Homepage of PlanExe
 <h1 class="post-title">Homepage of PlanExe</h1>
 <div class="header-description">
     <p class="subtitle">PlanExe is a tool for making plans.</p>
-    <p class="description">Try out your ideas.</p>
 </div>
 </header>
 
 ## What is it
 
-- PlanExe is a planner, that can make plans from vague descriptions.
+- PlanExe is a planner, that can generate a detailed plan from a short description.
 - Open source, MIT license. You can modify the python code or the report template.
 - Uses LlamaIndex so the AI provider can be changed, such as OpenRouter, Ollama, LM Studio.
 
@@ -47,7 +46,7 @@ title: Homepage of PlanExe
 
 ## Get involved
 
-Introduce yourself on the PlanExe Discord and ask how you can help.
+Introduce yourself on the [PlanExe Discord](discord.html) and ask how you can help.
 
 - Python developer, tweak most of the code.
 - Prompt engineer, make changes to the system prompts for different responses.
