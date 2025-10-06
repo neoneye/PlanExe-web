@@ -84,3 +84,13 @@
 .planexe-index-header .subtitle {
     font-size: 1.2rem;
 }
+
+/* Styles for bullet points and lists */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
