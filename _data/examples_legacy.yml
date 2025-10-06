@@ -1,25 +1,25 @@
 - title: Arxiv distillation
-  description: |
+  prompt: |
     Distill Arxiv papers into an objective, hype-free summary that indicates whether improvements are truly significant or just noise. Compare claims with benchmarks, flag inflated gains, and foster a clear, evidence-based understanding of machine learning progress without marketing language. To make the distilled data available with minimal upkeep and maximum longevity, publish these summaries as an open-access dataset on a well-established repository.
   download_link: https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250210_arxiv_distillation.zip
 
 - title: Puzzle restaurant
-  description: |
+  prompt: |
     I want to make a restaurant for puzzle solving happy people. An important part is that humans are solving puzzles with each other. While having something to drink and eat.
   download_link: https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250209_puzzle_restaurant.zip
 
 - title: Lunar base
-  description: |
+  prompt: |
     Manned moon mission, for establishing a permanent base.
   download_link: https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250209_lunar_base.zip
 
 - title: Global language
-  description: |
+  prompt: |
     I'm envisioning a streamlined global language—free of archaic features like gendered terms and excessive suffixes, taking cues from LLM tokenization. Some regions might only choose to adopt certain parts of this modern language. Would humanity ultimately benefit more from preserving many distinct languages, or uniting around a single, optimized one?
   download_link: https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250209_global_language.zip
 
 - title: US-Mexico canal
-  description: |
+  prompt: |
     US-Mexico canal. I want to build a canal along USA’s southern border to mexico, so that containers no longer have to go all the way to Panama. Also this would help with southern border security.
   download_link: https://github.com/neoneye/PlanExe-web/raw/refs/heads/main/20250208_us_mexico_canal.zip
 

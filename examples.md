@@ -15,7 +15,7 @@ permalink: /examples/
 {% for item in site.data.examples %}
 <div class="examples-card">
 <h2>{{ item.title }}</h2>
-<p>{{ item.description | markdownify }}</p>
+<p>{{ item.prompt | markdownify }}</p>
 <a class="examples-card-arrow-link" href="../{{ item.report_link }}">View Plan</a>
 </div>
 {% endfor %}
@@ -24,7 +24,7 @@ permalink: /examples/
 {% for item in site.data.examples_legacy %}
 <div class="examples-card">
 <h2>{{ item.title }}</h2>
-<p>{{ item.description | markdownify }}</p>
+<p>{{ item.prompt | markdownify }}</p>
 <a href="{{ item.download_link }}">Download Plan</a>
 </div>
 {% endfor %}

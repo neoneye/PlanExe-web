@@ -34,7 +34,7 @@ title: Homepage of PlanExe
 {% if item.featured %}
 <div class="examples-card">
 <h2>{{ item.title }}</h2>
-<p>{{ item.description | markdownify }}</p>
+<p>{{ item.prompt | markdownify }}</p>
 <a class="examples-card-arrow-link" href="{{ item.report_link }}">View Plan</a>
 </div>
 {% endif %}
