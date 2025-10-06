@@ -12,7 +12,7 @@ title: Homepage of PlanExe
 
 ## What is it
 
-- PlanExe is a planner, that can generate a detailed plan from a short description.
+- PlanExe is a planner, that can generate a detailed plan from your description.
 - Open source, MIT license. You can modify the python code or the report template.
 - Uses LlamaIndex so the AI provider can be changed, such as OpenRouter, Ollama, LM Studio.
 
