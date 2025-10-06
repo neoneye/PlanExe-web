@@ -18,11 +18,25 @@
     font-weight: 750;
 }
 
-/* Styles for the paragraph description inside the card */
-.examples-card p {
+/* Styles for the description text */
+.examples-card-description {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* Styles for the prompt text with N lines truncation */
+.examples-card-prompt {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: calc(1.6em * 4) + 15px; 
     line-height: 1.6;
     color: #555;
     margin-bottom: 15px;
+    position: relative;
 }
 
 /* Styles for any links inside the card (including links from markdownify and the View Report link) */
