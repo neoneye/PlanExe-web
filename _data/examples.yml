@@ -1,3 +1,10 @@
+- title: Social Blackout
+  description: |
+    Denmark wants to ban social media for kids younger than 15, [here](https://www.dr.dk/nyheder/politik/regeringen-vil-forbyde-sociale-medier-boern-under-15-aar). Taking this to the next dystopian level, what if it was EU-wide and how could this be enforced.
+  prompt: |
+    We (the EU) wants to perform "Unannounced inspections" with teams that will sweep schools, youth venues, retailers, transit hubs, and random households, cross-checking identities and issuing spot penalties, mandatory device confiscation, and service suspensions. Since mid 2025, the Commission has imposed an EU-wide under-15 blackout on all social media and communication platforms, and we want to enforce it with the help of the Unannounced inspections teams. The teams will be funded by the on the spot penalties collected. The message is blunt: the social internet is closed to minors, and the state will show up—unannounced—to make it stick.
+  report_link: 20251007_social_blackout_report.html
+
 - title: Skynet Sentinel
   description: |
     Russian hybrid war with drones over [airport/infrastructure in Denmark](https://www.reuters.com/world/europe/drones-that-shut-copenhagen-airport-flown-by-capable-operator-danish-police-say-2025-09-23/).
