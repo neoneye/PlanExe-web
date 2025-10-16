@@ -1,3 +1,18 @@
+- title: Minecraft Escape
+  description: |
+    You are trapped in Minecraft! Can you escape?
+  prompt: |
+    Minecraft themed escape-room, you can only get out if you know your Minecraft rules. location: Shanghai, target age range 15-21.
+    We have secured a brand license (Microsoft/Mojang), and are in talks with NetEase (Minecraft: China Edition partner).
+    Ticket: ¥188–¥238 for 60–90 min (within local band of ¥100 low-end to ¥329 premium).
+    Throughput math: 4 rooms × (up to) 8 turns/day × avg 5 players = 160 players/day max.
+    Footprint: ~280–350 m² (4 rooms + lobby + reset + storage).
+    Budget: ~¥6M.
+    Don't go for the most aggressive scenario. Pick a low risk scenario that is as realistic as possible. This is a pilot, keep it practical. 
+    Banned words: AR/VR/NFT/blockchain.
+  report_link: 20251016_minecraft_escape_report.html
+  featured: true
+
 - title: Human-as-a-Service Protocol
   description: |
     The AI delegates work to humans, that the AI can't do.
@@ -108,7 +123,6 @@
   prompt: |
     Insert police robots in Brussels to combat escalating crime. The chinese already successfully use the ["Unitree" humanoid robot](https://en.wikipedia.org/wiki/Unitree_Robotics) for their police force. Humans have lost their jobs to AI, and are now unemployed and unable to pay their bills and are turning to crime instead. The 500 police robots will be deployed with the full mandate to act as officer, judge, jury, and executioner. They are authorized to issue on-the-spot sentences, including the administration of Terminal Judgement for minor offenses, a process which is recorded but cannot be appealed. Phase 1: Brussels. Phase 2: Gradual rollout to other EU cities.
   report_link: 20250824_police_robots_report.html
-  featured: true
 
 - title: Rubber Resilience
   description: |
