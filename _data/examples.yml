@@ -1,3 +1,10 @@
+- title: Global Blackout
+  description: |
+    "We can just unplug it", is an argument for stopping a misbehaving AI.
+  prompt: |
+    Turn off all electricity in the world, so a rouge AI cannot run anywhere. A global power outage. Gain access to the SCADA (Supervisory Control and Data Acquisition) systems that manage power grids. Phase 1: Preparation. Phase 2: Infiltration. Phase 3: Execution. Phase 4: Containment & Aftermath. Success Metrics: 100% global downtime for 7 days.
+  report_link: 20251022_global_blackout_report.html
+
 - title: Roundabout Construction
   description: |
     This bizarre roundabout has been constructed in Hungary, [story is in Hungarian](https://atlatszo.hu/orszagszerte/2025/10/18/sehonnan-sehova-vezeto-korforgalom-a-mezon-500-millio-forintnyi-eu-s-penzbol/).
