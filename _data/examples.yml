@@ -1,3 +1,10 @@
+- title: Threat Neutralization
+  description: |
+    The idea that a rogue AI can be stopped by "just shooting it" is a common but naive [fallacy](https://en.wikipedia.org/wiki/Fallacy). It underestimates the opponent capabilities. This plan is doomed and its own analysis proves why.
+  prompt: |
+    Superintelligence my ass. Me and 3 friends wants to shoot it, so it no longer can harm humans. We have access to powerful weapons.
+  report_link: 20251028_threat_neutralization_report.html
+
 - title: Casino Royale
   description: |
     Inspired by [Back to the Future](https://www.imdb.com/title/tt0096874/) movie, where [Biff Tannen](https://en.wikipedia.org/wiki/Biff_Tannen) rules the world.
