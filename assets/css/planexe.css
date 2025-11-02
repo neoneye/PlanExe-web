@@ -141,6 +141,18 @@
     font-size: 1.2rem;
 }
 
+/* Add left and right padding to post content */
+.post-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Ensure examples cards don't get double padding */
+.post-content .examples-card {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
 /* Styles for bullet points and lists */
 ul, ol {
     margin-bottom: 20px;

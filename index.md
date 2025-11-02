@@ -32,13 +32,20 @@ title: Homepage of PlanExe
 {% for item in site.data.examples %}
 {% if item.featured %}
 <div class="examples-card">
-<h2>{{ item.title }}</h2>
+{% if item.thumbnail %}
+<div class="examples-card-image-wrapper">
+<img src="{{ item.thumbnail }}" alt="{{ item.title }}" class="examples-card-thumbnail">
+</div>
+{% endif %}
+<div class="examples-card-content">
+<h2 class="examples-card-title">{{ item.title }}</h2>
 {% if item.description %}
 <div class="examples-card-description">
 {{ item.description | markdownify }}
 </div>
 {% endif %}
 <div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
+</div>
 <a class="examples-card-arrow-link" href="{{ item.report_link }}"></a>
 </div>
 {% endif %}
