@@ -30,19 +30,3 @@ permalink: /examples/
 <a class="examples-card-arrow-link" href="../{{ item.report_link }}"></a>
 </div>
 {% endfor %}
-
-
-{% for item in site.data.examples_legacy %}
-<div class="examples-card">
-<div class="examples-card-content">
-<h2 class="examples-card-title">{{ item.title }}</h2>
-{% if item.description %}
-<div class="examples-card-description">
-{{ item.description | markdownify }}
-</div>
-{% endif %}
-<div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
-</div>
-<a href="{{ item.download_link }}"></a>
-</div>
-{% endfor %}
