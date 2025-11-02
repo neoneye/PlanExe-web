@@ -17,6 +17,15 @@
     cursor: pointer; /* Show it's clickable */
 }
   
+/* Styles for the thumbnail image */
+.examples-card-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block;
+}
+
 /* Styles for the heading inside the card */
 .examples-card h2 {
     color: #333;
