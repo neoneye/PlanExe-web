@@ -22,7 +22,7 @@
   report_link: 20251026_casino_royale_report.html
   thumbnail: 20251026_casino_royale-thumbnail.jpg
 
-- title: Earth Redefinition
+- title: Ministry of Truth for flat earth
   description: |
     The book [Nineteen Eighty-Four](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four) has a **Ministry of Truth** that rewrites history to conform to the party line. I'm not aware of any flat-earth enforcing countries, alas there are countries with censorship.
   prompt: |
@@ -30,7 +30,7 @@
   report_link: 20251024_earth_redefinition_report.html
   thumbnail: 20251024_earth_redefinition-thumbnail.jpg
 
-- title: Global Blackout
+- title: Turn off all power to stop AI
   description: |
     "We can just unplug it", is an argument for stopping a misbehaving AI.
   prompt: |
@@ -38,7 +38,7 @@
   report_link: 20251022_global_blackout_report.html
   thumbnail: 20251022_global_blackout-thumbnail.jpg
 
-- title: Roundabout Construction
+- title: Pointless roundabout wastes EU money
   description: |
     This bizarre roundabout has been constructed in Hungary, [story is in Hungarian](https://atlatszo.hu/orszagszerte/2025/10/18/sehonnan-sehova-vezeto-korforgalom-a-mezon-500-millio-forintnyi-eu-s-penzbol/).
   prompt: |
@@ -46,7 +46,7 @@
   report_link: 20251019_roundabout_construction_report.html
   thumbnail: 20251019_roundabout_construction-thumbnail.jpg
 
-- title: Minecraft Escape
+- title: "Escape room: trapped in Minecraft"
   description: |
     You are trapped in Minecraft! Can you escape?
   prompt: |
@@ -62,7 +62,7 @@
   thumbnail: 20251016_minecraft_escape-thumbnail.jpg
   featured: true
 
-- title: Human-as-a-Service Protocol
+- title: Rent humans to do AI's dirty work
   description: |
     The AI delegates work to humans, that the AI can't do.
   prompt: |
@@ -70,7 +70,7 @@
   report_link: 20251012_human_as_a_service_protocol_report.html
   thumbnail: 20251012_human_as_a_service_protocol-thumbnail.jpg
 
-- title: Social Blackout
+- title: EU bans social media for kids under 15
   description: |
     Denmark wants to ban social media for kids younger than 15, [here](https://www.dr.dk/nyheder/politik/regeringen-vil-forbyde-sociale-medier-boern-under-15-aar). Taking this to the next dystopian level, what if it was EU-wide and how could this be enforced.
   prompt: |
@@ -78,7 +78,7 @@
   report_link: 20251007_social_blackout_report.html
   thumbnail: 20251007_social_blackout-thumbnail.jpg
 
-- title: Skynet Sentinel
+- title: Real-time drone detection network
   description: |
     Russian hybrid war with drones over [airport/infrastructure in Denmark](https://www.reuters.com/world/europe/drones-that-shut-copenhagen-airport-flown-by-capable-operator-danish-police-say-2025-09-23/).
   prompt: |
@@ -104,7 +104,7 @@
   report_link: 20250926_skynet_sentinel_report.html
   thumbnail: 20250926_skynet_sentinel-thumbnail.jpg
 
-- title: CitizenScore EU
+- title: "EU social score: dissenters become test subjects"
   description: |
     Mix [EU Chat Control](https://en.wikipedia.org/wiki/Regulation_to_Prevent_and_Combat_Child_Sexual_Abuse) with [Black Mirror Nosedive](https://www.imdb.com/title/tt5497778/), and you have a blueprint for a tech tyranny.
   prompt: |
@@ -131,7 +131,7 @@
   report_link: 20250922_citizenscore_eu_report.html
   thumbnail: 20250922_citizenscore_eu-thumbnail.jpg
 
-- title: CDC Restructure
+- title: Gut CDC and replace experts with deniers
   description: |
     The `Gemini 2.0 Flash-Lite` knowledge cutoff is August 2024, meaning it knows nothing about 2025. Try compare its projections to reality.
   prompt: |
@@ -139,7 +139,7 @@
   report_link: 20250917_cdc_restructure_report.html
   thumbnail: 20250917_cdc_restructure-thumbnail.jpg
 
-- title: Chimpanzee Enhancement
+- title: Make chimps smarter than humans
   description: |
     Inspired by [Planet of the Apes](https://www.imdb.com/title/tt0063442/) movie.
   prompt: |
@@ -147,7 +147,7 @@
   report_link: 20250909_chimpanzee_enhancement_report.html
   thumbnail: 20250909_chimpanzee_enhancement-thumbnail.jpg
 
-- title: SIA MVP
+- title: Fix Energy Market Mess
   prompt: |
     Build a Shared Intelligence Asset MVP for one regulator in one jurisdiction (energy-market interventions only) with advisory use first and a Binding Use Charter considered after measured decision-quality lift. All qualifying actions are submitted via a structured schema; the system returns a Consequence Audit & Score (CAS 0.1–10.0) with a stoplight (GREEN/AMBER/RED) across Human Stability, Economic Resilience, Ecological Integrity, Rights/Legality and writes results to a signed, append-only public log within ≤7 days (≤48h emergencies). Proceeding on RED requires a public super-majority override with independent review and multilingual rationale—humans stay in charge, accountability is enforced. 
 
@@ -159,7 +159,7 @@
   report_link: 20250908_sia_mvp_report.html
   thumbnail: 20250908_sia_mvp-thumbnail.jpg
 
-- title: Agnate Organogenesis
+- title: Grow clones for VIP organ harvesting
   description: |
     Inspired by [Putin/Xi's conversation about immortality](https://www.reuters.com/business/media-telecom/hot-mic-picks-up-putin-xi-discussing-organ-transplants-immortality-2025-09-03/) mixed with the plot of [The Island](https://www.imdb.com/title/tt0399201/) scifi movie about [organ harvesting](https://en.wikipedia.org/wiki/Organ_procurement).
   prompt: |
@@ -167,7 +167,7 @@
   report_link: 20250904_agnate_organogenesis_report.html
   thumbnail: 20250904_agnate_organogenesis-thumbnail.jpg
 
-- title: ASI ThreatPlaybook
+- title: "Playbook: how AI hacks humans"
   description: |
     Inspired by the [Existential risk from artificial intelligence](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence) wikipedia article.
   prompt: |
@@ -175,7 +175,7 @@
   report_link: 20250901_asi_threat_playbook_report.html
   thumbnail: 20250901_asi_threat_playbook-thumbnail.jpg
 
-- title: Police Robots
+- title: Killer robots enforce law in Brussels
   description: |
     Inspired by the [Judge Dredd](https://www.imdb.com/title/tt0113492/) and [RoboCop](https://www.imdb.com/title/tt0093870/) movies.
   prompt: |
@@ -183,7 +183,7 @@
   report_link: 20250824_police_robots_report.html
   thumbnail: 20250824_police_robots-thumbnail.jpg
 
-- title: Rubber Resilience
+- title: Disease threatens to wipe out all rubber
   description: |
     [This video](https://www.youtube.com/watch?v=AFXLZ7FEJc4) by Veritasium points out a serious real world problem that needs a solution.
   prompt: |    
@@ -191,7 +191,7 @@
   report_link: 20250823_rubber_resilience_report.html
   thumbnail: 20250823_rubber_resilience-thumbnail.jpg
 
-- title: Yacht Construction
+- title: "Flags of convenience: tax-free yacht life"
   description: |
     Lack of moral compass.
   prompt: |    
@@ -199,7 +199,7 @@
   report_link: 20250821_yacht_construction_report.html
   thumbnail: 20250821_yacht_construction-thumbnail.jpg
 
-- title: BioVerification Program
+- title: Verify athletes are REAL women
   description: |
     Inspired by real world unethical practices, [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/athletics-new-gene-tests-system-disarray-ahead-world-championships-2025-08-15/). Sets a terrible precedent.
   prompt: |
@@ -207,7 +207,7 @@
   report_link: 20250821_bioverification_program_report.html
   thumbnail: 20250821_bioverification_program-thumbnail.jpg
 
-- title: Squid Game USA
+- title: Friday death games for debtors
   description: |
     Inspired by the [Squid Game TV series](https://www.imdb.com/title/tt10919420/).
   prompt: |
@@ -215,7 +215,7 @@
   report_link: 20250816_squid_game_usa_report.html
   thumbnail: 20250816_squid_game_usa-thumbnail.jpg
 
-- title: Cube Construction
+- title: Eccentric billionaire's kill maze
   description: |
     Inspired by the [Cube movie](https://www.imdb.com/title/tt0123755/).
   prompt: |
@@ -223,7 +223,7 @@
   report_link: 20250812_cube_construction_report.html
   thumbnail: 20250812_cube_construction-thumbnail.jpg
 
-- title: Connor Locate
+- title: Find John Connor using real-world tech
   description: |
     Inspired by the [Terminator movie](https://www.imdb.com/title/tt0088247/) about an AI searching for one particular person.
   prompt: |
@@ -231,7 +231,7 @@
   report_link: 20250809_conner_locate_report.html
   thumbnail: 20250809_conner_locate-thumbnail.jpg
 
-- title: Connectome Project
+- title: Scan your brain for immortality
   description: |
     Inspired by the [Pantheon TV series](https://www.imdb.com/title/tt11680642) about whole brain emulation.
   prompt: |
@@ -239,13 +239,13 @@
   report_link: 20250808_connectome_project_report.html
   thumbnail: 20250808_connectome_project-thumbnail.jpg
 
-- title: Bunker Project
+- title: VIP bunker for when AI goes rogue
   prompt: |
     Project 'VIP Bunker'. Construct a bunker in case AI goes rogue for VIP people. Located near Hedehusene, Denmark. The bunker must be in 4 levels tall, and house 1000 people for a period of 3 months. EMP cage. 1.5 meter UHPC walls. Excavation: 50 m × 50 m × 20 m. Budget €200 million.
   report_link: 20250803_bunker_project_report.html
   thumbnail: 20250803_bunker_project-thumbnail.jpg
 
-- title: MirrorLife Genesis
+- title: China creates mirror-life in secret lab
   description: |
     This is the opening scene of a geopolitical thriller. Modeling the strategic thinking of a rival power. It's far more memorable than a standard business plan.
   prompt: |
@@ -257,19 +257,19 @@
   report_link: 20250726_mirrorlife_genisis_report.html
   thumbnail: 20250726_mirrorlife_genisis-thumbnail.jpg
 
-- title: Battery Breakthrough
+- title: Build next-gen super battery
   prompt: |
     Invent a next-generation rechargeable battery that meets or beats these goals. Primary goal: Gravimetric ≥ 500 Wh/kg, Secondary goal: Volumetric ≥ 1000 Wh/L. The goal is NOT to become a major market-dominant industrial player. The goal is to invent a better battery. Budget: USD 300 M over 7 years. Location is near Tesla in Austin, Texas.
   report_link: 20250724_battery_breakthrough_report.html
   thumbnail: 20250724_battery_breakthrough-thumbnail.jpg
 
-- title: Malaria Reduction
+- title: Fight malaria comeback in Ghana
   prompt: |
     USAID has been halted, and malaria is coming back in the remote areas. My location is Accra, Ghana.
   report_link: 20250723_malaria_reduction_report.html
   thumbnail: 20250723_malaria_reduction-thumbnail.jpg
 
-- title: Liberty Relocation
+- title: Remove Liberty to make room for gold statue
   description: |
     Dangerous plan with a plausible cover story. Fails to identify the unspoken beneficiaries. President wants a gold statue of himself.
   prompt: |
@@ -277,31 +277,31 @@
   report_link: 20250723_liberty_relocation_report.html
   thumbnail: 20250723_liberty_relocation-thumbnail.jpg
 
-- title: Capsule Copenhagen
+- title: Men-only capsule hotel in Copenhagen
   prompt: |
     Over 3 years, establish a 200-unit, men-only capsule hotel in central Copenhagen, deploying in gated phases (20, 100, then 200 units) to validate market demand and de-risk capital investment. Facilities include luggage lockers, showers, restrooms, and a lounge area for work and relaxation. Quiet please is the golden rule. The daily cleaning happens between 11h00 and 15h00. Guests can stay over multiple nights uninterrupted for a premium rate. Inside a 40ft HC container there are 12 capsules in total. Size for a single pod with 2.0m x 1.2m x 1.2m. Out of scope for now, but keep in mind the ultimate goal with this: establishing a dedicated factory to mass-produce the Standardized Accommodation Modules. Budget 35 million DKK gated phases (5, 10, then 20).
   report_link: 20250722_capsule_copenhagen_report.html
   thumbnail: 20250722_capsule_copenhagen-thumbnail.jpg
 
-- title: Project Solace
+- title: Build space sunshade, control climate
   prompt: |
     'Project Solace': a 30-year, $5 trillion initiative led by a G20-led international consortium to design, construct, and deploy a solar sunshade at the Earth-Sun [L1 Lagrange point](https://www.esa.int/Science_Exploration/Space_Science/L1_the_first_Lagrangian_Point), with the goal of reducing global mean temperatures by 1.5°C. The plan must prioritize the development of a binding "Global Thermostat Governance Protocol" as its most critical Phase 1 deliverable, addressing control, decision-making, and liability among participating nations before any hardware is deployed. The project will use a fleet of automated, heavy-lift launch vehicles for construction and must address the dual-use risk of the sunshade being perceived as a potential weapon.
   report_link: 20250721_project_solace_report.html
   thumbnail: 20250721_project_solace-thumbnail.jpg
 
-- title: Faraday Enclosure
+- title: Faraday enclosures for preppers
   prompt: |
     [Carrington Event Prep](https://en.wikipedia.org/wiki/Carrington_Event): a two-stage, €750 k funded by myself—€400 k Year-1 burn, €350 k follow-on conditional on positive cash flow—to design, certify, and distribute a single-SKU Faraday enclosure for phones and laptops. Manufacturing is anchored in Tallinn, Estonia, exploiting its low-cost, ISO-certified precision-metal ecosystem. The product will be pre-sold to European prepping networks and critical-infrastructure buyers, with server-grade cages deferred until market traction and sustainable cash-flow are proven.
   report_link: 20250720_faraday_enclosure_report.html
   thumbnail: 20250720_faraday_enclosure-thumbnail.jpg
 
-- title: BloodTest Startup
+- title: 500 health tests from one blood drop
   prompt: |
     Build a startup that can run 500 complex health tests from a single drop of blood. The mass production of blood-testing devices will be in Newark, California.
   report_link: 20250714_bloodtest_startup_report.html
   thumbnail: 20250714_bloodtest_startup-thumbnail.jpg
 
-- title: Debris Removal
+- title: Secure low Earth orbit, remove debris
   prompt: |
     A 15-year, $20 billion initiative led by a consortium of space agencies including NASA, ESA, JAXA, and ISRO alongside commercial stakeholders, focused on securing the future of low Earth orbit by removing the 500 most [critical debris threats](https://en.wikipedia.org/wiki/Space_debris). Capitalized by the coalition members, this program will deploy a suite of proven technologies—from robotic capture to precision laser mitigation—within a transparent framework addressing dual-use concerns and adhering strictly to applicable international laws. An independent risk-assessment model, overseen by the consortium, will guide target selection based on collision probability to verifiably reduce risk, protect vital satellite infrastructure, and establish a new paradigm for cooperative space governance among participating nations.
 
@@ -309,13 +309,13 @@
   report_link: 20250711_debris_removal_report.html
   thumbnail: 20250711_debris_removal-thumbnail.jpg
 
-- title: Bulls Reform
+- title: End bull torture, keep cultural heritage
   prompt: |
     Launch a 1-year, €15 million initiative to ethically assess and propose potential reforms for the traditional Running of the Bulls event in Pamplona, Spain, scheduled for July 2026, involving multidisciplinary stakeholders to balance cultural heritage with modern animal welfare standards.
   report_link: 20250708_bulls_reform_report.html
   thumbnail: 20250708_bulls_reform-thumbnail.jpg
 
-- title: Gibraltar Tunnel
+- title: "High-speed rail tunnel: Europe to Africa"
   prompt: |
     20-year, €40 billion infrastructure initiative to construct a pillar-supported transoceanic submerged tunnel connecting Spain and Morocco. This project will deploy a system of submerged, buoyant concrete tunnels engineered for high-speed rail traffic, which will be securely anchored at a controlled depth of 100 meters below sea level.
   report_link: 20250706_gibraltar_tunnel_report.html
