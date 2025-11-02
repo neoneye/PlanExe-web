@@ -1,9 +1,12 @@
 /* Styles for the overall card container */
 .examples-card {
-    border: 1px solid #767676;
+    border-top: 1px solid #767676;
+    border-bottom: 1px solid #767676;
+    border-left: none;
+    border-right: none;
     padding: 20px;
-    margin-bottom: 30px; /* Adds space below each card */
-    border-radius: 8px;
+    margin-bottom: 0; /* No margin needed since border creates spacing */
+    border-radius: 0;
     background-color: white;
     position: relative; /* Make it a positioning context for the stretched link */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -15,7 +18,8 @@
 .examples-card:hover {
     transform: translateY(-4px); /* Lift the card on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a more prominent shadow */
-    border-color: #007bff; /* Highlight with a blue border */
+    border-top-color: #007bff; /* Highlight with a blue border */
+    border-bottom-color: #007bff; /* Highlight with a blue border */
     cursor: pointer; /* Show it's clickable */
 }
   
