@@ -13,6 +13,9 @@ permalink: /examples/
 
 {% for item in site.data.examples %}
 <div class="examples-card">
+{% if item.thumbnail %}
+<img src="../{{ item.thumbnail }}" alt="{{ item.title }}" class="examples-card-thumbnail">
+{% endif %}
 <h2>{{ item.title }}</h2>
 {% if item.description %}
 <div class="examples-card-description">
