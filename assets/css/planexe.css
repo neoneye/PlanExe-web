@@ -2,11 +2,12 @@
 .examples-card {
     border: 1px solid #767676;
     padding: 20px;
-    margin-bottom: 30px; /* Adds space below each card */
     border-radius: 8px;
     background-color: white;
     position: relative; /* Make it a positioning context for the stretched link */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    min-width: 0; /* Prevent grid item from overflowing */
+    width: 100%; /* Ensure cards fill their grid cell */
 }
 
 /* Add a hover effect to the entire card */
@@ -87,6 +88,29 @@
 .examples-card-prompt a {
     position: relative;
     z-index: 2;
+}
+
+/* Grid container for examples cards */
+.examples-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+/* Responsive: 2 columns on medium screens */
+@media (max-width: 1024px) {
+    .examples-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Responsive: 1 column on small screens */
+@media (max-width: 768px) {
+    .examples-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .planexe-examples-header {

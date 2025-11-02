@@ -11,6 +11,7 @@ permalink: /examples/
 </div>
 </header>
 
+<div class="examples-grid">
 {% for item in site.data.examples %}
 <div class="examples-card">
 {% if item.thumbnail %}
@@ -40,3 +41,4 @@ permalink: /examples/
 <a href="{{ item.download_link }}"></a>
 </div>
 {% endfor %}
+</div>
