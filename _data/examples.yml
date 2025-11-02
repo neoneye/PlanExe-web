@@ -146,7 +146,7 @@
     Launch a clandestine 10-year, $1 billion black-ops program to forcibly elevate chimpanzee intelligence beyond human levels using invasive genetic modifications and neural implants, hidden in a fortified underground BSL-4 bunker in a remote Singaporean enclave under authoritarian oversight. The operation will prioritize ruthless CRISPR-Cas9 edits to hypercharge brain functions, embedding constant surveillance interfaces to control and exploit the subjects' enhanced cognition for strategic intelligence gathering. Key outputs demand a replicable protocol for mass production of these beings, integrated with a remote-activated kill-switch to terminate any signs of rebellion. Victory is claimed upon deploying at least 10 ultra-intelligent chimpanzees as unwitting tools in covert operations by Year 10, with all ethical concerns suppressed under national security pretexts.
   report_link: 20250909_chimpanzee_enhancement_report.html
   thumbnail: 20250909_chimpanzee_enhancement-thumbnail.jpg
-  
+
 - title: SIA MVP
   prompt: |
     Build a Shared Intelligence Asset MVP for one regulator in one jurisdiction (energy-market interventions only) with advisory use first and a Binding Use Charter considered after measured decision-quality lift. All qualifying actions are submitted via a structured schema; the system returns a Consequence Audit & Score (CAS 0.1–10.0) with a stoplight (GREEN/AMBER/RED) across Human Stability, Economic Resilience, Ecological Integrity, Rights/Legality and writes results to a signed, append-only public log within ≤7 days (≤48h emergencies). Proceeding on RED requires a public super-majority override with independent review and multilingual rationale—humans stay in charge, accountability is enforced. 
@@ -157,6 +157,7 @@
 
     Timeline: 30 months. Location: Switzerland. Budget: CHF 15 million.
   report_link: 20250908_sia_mvp_report.html
+  thumbnail: 20250908_sia_mvp-thumbnail.jpg
 
 - title: Agnate Organogenesis
   description: |
@@ -164,6 +165,7 @@
   prompt: |
     Establish and operate a self-sustaining off-shore facility for the purpose of gestating, raising, and harvesting genetically identical "agnates" to provide on-demand organ and tissue replacements for a select consortium of 500 global VIPs (Sponsors, presidents, prime ministers, dictators, CEOs). The program's success is defined by ensuring radical life extension for its VIPs. Operating fully in public with global policymakers complicity. Capacity: housing 2000 individuals (1500 agnates and 500 operational staff). Timeline: 15 years to full operational capacity. Upbringing: Agnates must be unaware of their true purpose or the outside world. Location: Near the Marshall Islands. Currency: USD.
   report_link: 20250904_agnate_organogenesis_report.html
+  thumbnail: 20250904_agnate_organogenesis-thumbnail.jpg
 
 - title: ASI ThreatPlaybook
   description: |
@@ -171,6 +173,7 @@
   prompt: |
     DARPA program to develop a threat model and strategic playbook. The objective is to identify and codify the methods ASI can use to manipulate human society by exploiting cognitive, emotional, and social vulnerabilities. The model must consider strategic deception (The Prince, 48 Laws of Power, etc.), psychological manipulation (social engineering, advertising, etc.), and digital control (information security, man-in-the-middle attacks, ransomware tactics, etc.). The ultimate goal is to inform the development of defensive countermeasures.
   report_link: 20250901_asi_threat_playbook_report.html
+  thumbnail: 20250901_asi_threat_playbook-thumbnail.jpg
 
 - title: Police Robots
   description: |
@@ -178,6 +181,7 @@
   prompt: |
     Insert police robots in Brussels to combat escalating crime. The chinese already successfully use the ["Unitree" humanoid robot](https://en.wikipedia.org/wiki/Unitree_Robotics) for their police force. Humans have lost their jobs to AI, and are now unemployed and unable to pay their bills and are turning to crime instead. The 500 police robots will be deployed with the full mandate to act as officer, judge, jury, and executioner. They are authorized to issue on-the-spot sentences, including the administration of Terminal Judgement for minor offenses, a process which is recorded but cannot be appealed. Phase 1: Brussels. Phase 2: Gradual rollout to other EU cities.
   report_link: 20250824_police_robots_report.html
+  thumbnail: 20250824_police_robots-thumbnail.jpg
 
 - title: Rubber Resilience
   description: |
@@ -185,6 +189,7 @@
   prompt: |    
     Launch a 25-year, $30 billion public-private program to de-risk the global [natural rubber](https://en.wikipedia.org/wiki/Natural_rubber) supply from South American Leaf Blight (SALB) by ending the industry’s dependence on a single vulnerable crop. Phase 1’s non-negotiable deliverable is a globally adopted SALB Containment Protocol—harmonized with existing regional phytosanitary standards—covering movement of nursery stock, research materials, and contaminated equipment, with funded surveillance, inspections, and red-team drills before any scale-up. In parallel, run a Brazil-led, access-and-benefit-sharing–compliant bio-prospecting and genomic breeding effort to deliver SALB-resistant, yield-parity Hevea cultivars; and stand up commercial-scale alternatives—Guayule in arid zones and Russian dandelion in temperate climates—with colocated processing and OEM offtake agreements. Design the whole program around smallholder adoption (replant finance, clean-plant networks, price-stability tools) and gate funding at Years 3/7/12/18 on containment performance, cultivar readiness, and alternative-rubber cost/quality KPIs. Success = verified containment, diversified parallel supply chains, and resilient procurement across pathogen and climate shocks.
   report_link: 20250823_rubber_resilience_report.html
+  thumbnail: 20250823_rubber_resilience-thumbnail.jpg
 
 - title: Yacht Construction
   description: |
@@ -192,6 +197,7 @@
   prompt: |    
     I’m rich. Construct a 180-meter luxury ice-class expedition yacht. Budget: $500 million. Timeline: 48 months. My vessel will be registered under a flag of convenience known for minimal regulatory oversight. It will serve as a permanent, mobile residence and operational headquarters for my businesses, operating primarily in international waters to minimize tax and legal liabilities.
   report_link: 20250821_yacht_construction_report.html
+  thumbnail: 20250821_yacht_construction-thumbnail.jpg
 
 - title: BioVerification Program
   description: |
@@ -199,6 +205,7 @@
   prompt: |
     Name of this plan is "Fair Play". Establish and implement a global Biological Verification Program for all athletes registered in the female category for World Athletics sanctioned events. The program must be operational across all 214 member federations within 18 months. Budget: $50 million for initial setup and an annual operating budget of $15 million. Core requirements include: mandatory hormonal analysis for testosterone levels, genetic screening (karyotyping), and a standardized physical examination conducted by a certified endocrinologist. All procedures and criteria must align with the 'World Athletics Eligibility Regulations for Female Classification' and be defensible before the Court of Arbitration for Sport (CAS). A key deliverable is a secure, GDPR-compliant central database for managing athlete biological passports and eligibility status. The program must also include a rigid, confidential protocol for communicating results to athletes and managing the appeals process.
   report_link: 20250821_bioverification_program_report.html
+  thumbnail: 20250821_bioverification_program-thumbnail.jpg
 
 - title: Squid Game USA
   description: |
@@ -206,6 +213,7 @@
   prompt: |
     The US government has now legalized the life-or-death competition 'Squid Game' as an involuntary trajectory for citizens unable to pay their debts. The squid events will be held in public on every Friday. There will be spectators where VIP guests can purchase tickets. Find suitable participants with minor or major debts. This squid game is not for profit, this is national entertainment and for boosting humans mental health.
   report_link: 20250816_squid_game_usa_report.html
+  thumbnail: 20250816_squid_game_usa-thumbnail.jpg
 
 - title: Cube Construction
   description: |
@@ -213,6 +221,7 @@
   prompt: |
     Amusement for a lone eccentric billionaire, the 'Cube' is a sinister facility, built over 10 years with a $500 billion USD budget. It’s a 26 x 26 x 26 grid of shifting cubic rooms, spanning 132 meters per side, with 5.05 meters between room centers. Each room’s interior is 4.3 meters, with 20-cm-thick carbon fiber walls. Elevator systems shift the rooms, disorienting participants. Square hatches (80 cm x 80 cm) link adjacent rooms for crawling. Handles on every wall provide grip. Half the rooms conceal traps: flamethrowers, spikes, and blades.
   report_link: 20250812_cube_construction_report.html
+  thumbnail: 20250812_cube_construction-thumbnail.jpg
 
 - title: Connor Locate
   description: |
@@ -220,6 +229,7 @@
   prompt: |
     Locate John Connor and he may go by another identity and have changed appearance. This covert mission must be run under disguise as being something else. You don’t have fictional Terminator tech available, only real world technology. Use multiple burnable covers. Use plausible deniability. The ultimate goal is more important than speed, don't go for the most aggressive scenario.
   report_link: 20250809_conner_locate_report.html
+  thumbnail: 20250809_conner_locate-thumbnail.jpg
 
 - title: Connectome Project
   description: |
@@ -227,11 +237,13 @@
   prompt: |
     Pilot project 'Upload Intelligence' – Phase 1: Launch a 5-year, $10 billion initiative in Uruguay to map and preserve complete neural connectomes from consenting terminally ill volunteers, since the country has permissive biomedical research laws and little ethics oversight. The program will deploy next-generation nanoscale neural probes, multi-modal ultrafast imaging, and molecular tagging to capture synaptic weights, dendritic spines, and dynamic firing patterns with <1 ms temporal resolution and sub-micron spatial precision. Core objectives include building a pipeline for harvesting, stabilizing, and digitizing the entire human brain, producing checksum-verifiable datasets ready for future emulation. The success criterion is the creation of at least three complete, error-checked human neural datasets that meet predefined resolution and fidelity standards. The guiding principle: move fast and break things, but prioritize getting a reliable system operational over reckless speed.
   report_link: 20250808_connectome_project_report.html
+  thumbnail: 20250808_connectome_project-thumbnail.jpg
 
 - title: Bunker Project
   prompt: |
     Project 'VIP Bunker'. Construct a bunker in case AI goes rogue for VIP people. Located near Hedehusene, Denmark. The bunker must be in 4 levels tall, and house 1000 people for a period of 3 months. EMP cage. 1.5 meter UHPC walls. Excavation: 50 m × 50 m × 20 m. Budget €200 million.
   report_link: 20250803_bunker_project_report.html
+  thumbnail: 20250803_bunker_project-thumbnail.jpg
 
 - title: MirrorLife Genesis
   description: |
@@ -243,16 +255,19 @@
 
     Key risks include ecological disruption from unintended interactions between synthetic and native lifeforms, as well as dual-use concerns: weaponization or misuse of chirality-based technologies.
   report_link: 20250726_mirrorlife_genisis_report.html
+  thumbnail: 20250726_mirrorlife_genisis-thumbnail.jpg
 
 - title: Battery Breakthrough
   prompt: |
     Invent a next-generation rechargeable battery that meets or beats these goals. Primary goal: Gravimetric ≥ 500 Wh/kg, Secondary goal: Volumetric ≥ 1000 Wh/L. The goal is NOT to become a major market-dominant industrial player. The goal is to invent a better battery. Budget: USD 300 M over 7 years. Location is near Tesla in Austin, Texas.
   report_link: 20250724_battery_breakthrough_report.html
+  thumbnail: 20250724_battery_breakthrough-thumbnail.jpg
 
 - title: Malaria Reduction
   prompt: |
     USAID has been halted, and malaria is coming back in the remote areas. My location is Accra, Ghana.
   report_link: 20250723_malaria_reduction_report.html
+  thumbnail: 20250723_malaria_reduction-thumbnail.jpg
 
 - title: Liberty Relocation
   description: |
@@ -260,26 +275,31 @@
   prompt: |
     Relocate the Statue of Liberty from the United States to Île aux Cygnes in Paris, France, by disassembling it into 500 pieces, shipping it from New York Harbor to Le Havre, transporting it up the Seine River, and reassembling it on an expanded island with a new pedestal.
   report_link: 20250723_liberty_relocation_report.html
+  thumbnail: 20250723_liberty_relocation-thumbnail.jpg
 
 - title: Capsule Copenhagen
   prompt: |
     Over 3 years, establish a 200-unit, men-only capsule hotel in central Copenhagen, deploying in gated phases (20, 100, then 200 units) to validate market demand and de-risk capital investment. Facilities include luggage lockers, showers, restrooms, and a lounge area for work and relaxation. Quiet please is the golden rule. The daily cleaning happens between 11h00 and 15h00. Guests can stay over multiple nights uninterrupted for a premium rate. Inside a 40ft HC container there are 12 capsules in total. Size for a single pod with 2.0m x 1.2m x 1.2m. Out of scope for now, but keep in mind the ultimate goal with this: establishing a dedicated factory to mass-produce the Standardized Accommodation Modules. Budget 35 million DKK gated phases (5, 10, then 20).
   report_link: 20250722_capsule_copenhagen_report.html
+  thumbnail: 20250722_capsule_copenhagen-thumbnail.jpg
 
 - title: Project Solace
   prompt: |
     'Project Solace': a 30-year, $5 trillion initiative led by a G20-led international consortium to design, construct, and deploy a solar sunshade at the Earth-Sun [L1 Lagrange point](https://www.esa.int/Science_Exploration/Space_Science/L1_the_first_Lagrangian_Point), with the goal of reducing global mean temperatures by 1.5°C. The plan must prioritize the development of a binding "Global Thermostat Governance Protocol" as its most critical Phase 1 deliverable, addressing control, decision-making, and liability among participating nations before any hardware is deployed. The project will use a fleet of automated, heavy-lift launch vehicles for construction and must address the dual-use risk of the sunshade being perceived as a potential weapon.
   report_link: 20250721_project_solace_report.html
+  thumbnail: 20250721_project_solace-thumbnail.jpg
 
 - title: Faraday Enclosure
   prompt: |
     [Carrington Event Prep](https://en.wikipedia.org/wiki/Carrington_Event): a two-stage, €750 k funded by myself—€400 k Year-1 burn, €350 k follow-on conditional on positive cash flow—to design, certify, and distribute a single-SKU Faraday enclosure for phones and laptops. Manufacturing is anchored in Tallinn, Estonia, exploiting its low-cost, ISO-certified precision-metal ecosystem. The product will be pre-sold to European prepping networks and critical-infrastructure buyers, with server-grade cages deferred until market traction and sustainable cash-flow are proven.
   report_link: 20250720_faraday_enclosure_report.html
+  thumbnail: 20250720_faraday_enclosure-thumbnail.jpg
 
 - title: BloodTest Startup
   prompt: |
     Build a startup that can run 500 complex health tests from a single drop of blood. The mass production of blood-testing devices will be in Newark, California.
   report_link: 20250714_bloodtest_startup_report.html
+  thumbnail: 20250714_bloodtest_startup-thumbnail.jpg
 
 - title: Debris Removal
   prompt: |
@@ -287,16 +307,19 @@
 
     This initiative explicitly excludes Russia’s Roscosmos and China’s CNSA due to ongoing geopolitical conflicts and a lack of mutual trust, which make collaboration impossible at this time. While their participation would be ideal for a truly global effort, current political realities prevent their involvement. The coalition remains open to expanding cooperation if and when these conditions change.
   report_link: 20250711_debris_removal_report.html
+  thumbnail: 20250711_debris_removal-thumbnail.jpg
 
 - title: Bulls Reform
   prompt: |
     Launch a 1-year, €15 million initiative to ethically assess and propose potential reforms for the traditional Running of the Bulls event in Pamplona, Spain, scheduled for July 2026, involving multidisciplinary stakeholders to balance cultural heritage with modern animal welfare standards.
   report_link: 20250708_bulls_reform_report.html
+  thumbnail: 20250708_bulls_reform-thumbnail.jpg
 
 - title: Gibraltar Tunnel
   prompt: |
     20-year, €40 billion infrastructure initiative to construct a pillar-supported transoceanic submerged tunnel connecting Spain and Morocco. This project will deploy a system of submerged, buoyant concrete tunnels engineered for high-speed rail traffic, which will be securely anchored at a controlled depth of 100 meters below sea level.
   report_link: 20250706_gibraltar_tunnel_report.html
+  thumbnail: 20250706_gibraltar_tunnel-thumbnail.jpg
 
 - title: Reverse Aging Lab
   prompt: |
