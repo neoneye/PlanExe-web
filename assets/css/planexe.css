@@ -150,3 +150,34 @@ li {
     margin-bottom: 12px;
     line-height: 1.6;
 }
+
+/* Mobile layout for examples cards */
+@media (max-width: 768px) {
+    /* Reverse order: content on left, thumbnail on right */
+    .examples-card {
+        flex-direction: row;
+    }
+    
+    /* Move thumbnail to the right using order */
+    .examples-card-image-wrapper {
+        order: 2;
+        flex: 0 0 auto;
+        width: 120px; /* Fixed width for square on mobile */
+        min-width: 120px;
+    }
+    
+    /* Content takes remaining space */
+    .examples-card-content {
+        order: 1;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    
+    /* Make thumbnail square with overflow cropping */
+    .examples-card-thumbnail {
+        width: 120px;
+        height: 120px;
+        object-fit: cover; /* Crop to fit square */
+        object-position: center; /* Center the crop */
+    }
+}
