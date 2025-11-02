@@ -9,15 +9,14 @@
     border-radius: 0;
     background-color: white;
     position: relative; /* Make it a positioning context for the stretched link */
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     display: flex;
     gap: 20px;
 }
 
 /* Add a hover effect to the entire card */
 .examples-card:hover {
-    transform: translateY(-4px); /* Lift the card on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a more prominent shadow */
+    background-color: #f2f2f3; /* Slightly lighter background on hover */
     border-top-color: #007bff; /* Highlight with a blue border */
     border-bottom-color: #007bff; /* Highlight with a blue border */
     cursor: pointer; /* Show it's clickable */
