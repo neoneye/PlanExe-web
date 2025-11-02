@@ -19,7 +19,7 @@ permalink: /examples/
 </div>
 {% endif %}
 <div class="examples-card-content">
-<h2>{{ item.title }}</h2>
+<h2 class="examples-card-title">{{ item.title }}</h2>
 {% if item.description %}
 <div class="examples-card-description">
 {{ item.description | markdownify }}
@@ -35,7 +35,7 @@ permalink: /examples/
 {% for item in site.data.examples_legacy %}
 <div class="examples-card">
 <div class="examples-card-content">
-<h2>{{ item.title }}</h2>
+<h2 class="examples-card-title">{{ item.title }}</h2>
 {% if item.description %}
 <div class="examples-card-description">
 {{ item.description | markdownify }}

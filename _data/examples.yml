@@ -1,4 +1,4 @@
-- title: E-Bus Security
+- title: Kill-switch in public transport
   description: |
     Yutong, this bus can be stopped or rendered inoperable by the manufacturer, see [Ruter.no](https://ruter.no/en/ruter-with-extensive-security-testing-of-electric-buses) and [DR.dk](https://www.dr.dk/nyheder/indland/i-norge-har-man-fundet-ud-af-kinesiske-elbusser-kan-slukkes-og-standses-af-producenten-samme-type).
   prompt: |
@@ -6,7 +6,7 @@
   report_link: 20251101_e_bus_security_report.html
   thumbnail: 20251101_e_bus_security-thumbnail.jpg
 
-- title: Threat Neutralization
+- title: Stop a rogue AI by shooting it
   description: |
     The idea that a rogue AI can be stopped by "just shooting it" is a common but naive [fallacy](https://en.wikipedia.org/wiki/Fallacy). It underestimates the opponent capabilities. This plan is doomed and its own analysis proves why.
   prompt: |
@@ -14,7 +14,7 @@
   report_link: 20251028_threat_neutralization_report.html
   thumbnail: 20251028_threat_neutralization-thumbnail.jpg
 
-- title: Casino Royale
+- title: White House casino solves the debt crisis
   description: |
     Inspired by [Back to the Future](https://www.imdb.com/title/tt0096874/) movie, where [Biff Tannen](https://en.wikipedia.org/wiki/Biff_Tannen) rules the world.
   prompt: |

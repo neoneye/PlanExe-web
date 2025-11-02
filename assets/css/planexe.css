@@ -185,4 +185,10 @@ li {
         object-fit: cover; /* Crop to fit square */
         object-position: center; /* Center the crop */
     }
+    
+    /* Hide description and prompt on mobile */
+    .examples-card-description,
+    .examples-card-prompt {
+        display: none;
+    }
 }
