@@ -153,6 +153,11 @@ li {
 
 /* Mobile layout for examples cards */
 @media (max-width: 768px) {
+    /* Suppress wrapper padding on mobile - only for content area, not header */
+    .page-content .wrapper {
+        padding: 0 !important;
+    }
+    
     /* Reverse order: content on left, thumbnail on right */
     .examples-card {
         flex-direction: row;
