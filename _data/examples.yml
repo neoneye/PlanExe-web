@@ -401,32 +401,37 @@
   report_link: 20250329_gta_game_report.html
   thumbnail: 20250329_gta_game-thumbnail.jpg
 
-- title: Silo
+- title: Build 144-floor underground bunker
   description: |
     Inspired by the [TV series "Silo"](https://www.imdb.com/title/tt14688458/).
   prompt: |
     Construct a massive, multi-level underground complex designed to sustain thousands of people indefinitely. This silo would feature self-contained ecosystems, including residential areas, agricultural zones, and industrial facilities spread across 144 floors. The structure would maintain stringent rules to keep order and control information about the outside world, believed to be toxic. Advanced surveillance and security systems would enforce these rules. The silo would be a complete, self-sustaining society, with its own power generation, water recycling, and air filtration systems, embodying a dystopian, controlled environment. Funding for this project comes from a mix of government allocations and private investments from elite stakeholders.
   report_link: 20250321_silo_report.html
+  thumbnail: 20250321_silo-thumbnail.jpg
 
-- title: Robot Olympics
+- title: "2026 Robot Olympics: humanoid athletes"
   prompt: |
     It's 2025 and humanoid robots are entering mainstream society, with China already showcasing robotic athletes in sports events. Plan a 2026 Robot Olympics, outline innovative events, rules, and challenges to test the humanoid robots.
   report_link: 20250316_robot_olympics_report.html
+  thumbnail: 20250316_robot_olympics-thumbnail.jpg
 
-- title: Rust OS
+- title: Build 64-bit OS in Rust from scratch
   prompt: |
     Make a 64bit x86 OS in Rust. Linux-like but not POSIX-compliant. Monolithic kernel, memory management, process scheduler, shell, utils (ls, cat, rm, mkdir, mv, rmdir, ps). Basic drivers for console, disk, and virtio-net, and include enough network stack to do a ping. This is my hobby project for testing LLM coding skills.
   report_link: 20250311_rust_os_report.html
+  thumbnail: 20250311_rust_os-thumbnail.jpg
 
-- title: Microplastics
+- title: Examine microplastic crisis in oceans
   prompt: |
     Create a detailed report examining the current situation of microplastics within the world's oceans.
   report_link: 20250309_microplastics.html
+  thumbnail: 20250309_microplastics-thumbnail.jpg
 
-- title: Dead fish
+- title: Monitor pollution causing fish die-offs
   prompt: |
     Launch a pollution monitoring program for Roskilde Fjord in Roskilde, Denmark, in response to alarming fish die-offs. Track oxygen levels, nutrients, microplastics, pH, nitrates, and phosphates in real time.
   report_link: 20250305_dead_fish_report.html
+  thumbnail: 20250305_dead_fish-thumbnail.jpg
 
 - title: Clean water
   prompt: |
