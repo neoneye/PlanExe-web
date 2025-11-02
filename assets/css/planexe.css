@@ -1,7 +1,7 @@
 /* Styles for the overall card container */
 .examples-card {
-    border-top: 1px solid #767676;
-    border-bottom: 1px solid #767676;
+    border-top: none;
+    border-bottom: 1px solid #cdcdcd;
     border-left: none;
     border-right: none;
     padding: 20px;
@@ -14,11 +14,15 @@
     gap: 20px;
 }
 
+/* Add top border to first card */
+.examples-card:first-child,
+.examples-card:first-of-type {
+    border-top: 1px solid #cdcdcd !important;
+}
+
 /* Add a hover effect to the entire card */
 .examples-card:hover {
     background-color: #f2f2f3; /* Slightly lighter background on hover */
-    border-top-color: #007bff; /* Highlight with a blue border */
-    border-bottom-color: #007bff; /* Highlight with a blue border */
     cursor: pointer; /* Show it's clickable */
 }
   
