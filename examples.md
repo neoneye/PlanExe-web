@@ -14,8 +14,11 @@ permalink: /examples/
 {% for item in site.data.examples %}
 <div class="examples-card">
 {% if item.thumbnail %}
+<div class="examples-card-image-wrapper">
 <img src="../{{ item.thumbnail }}" alt="{{ item.title }}" class="examples-card-thumbnail">
+</div>
 {% endif %}
+<div class="examples-card-content">
 <h2>{{ item.title }}</h2>
 {% if item.description %}
 <div class="examples-card-description">
@@ -23,6 +26,7 @@ permalink: /examples/
 </div>
 {% endif %}
 <div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
+</div>
 <a class="examples-card-arrow-link" href="../{{ item.report_link }}"></a>
 </div>
 {% endfor %}
@@ -30,6 +34,7 @@ permalink: /examples/
 
 {% for item in site.data.examples_legacy %}
 <div class="examples-card">
+<div class="examples-card-content">
 <h2>{{ item.title }}</h2>
 {% if item.description %}
 <div class="examples-card-description">
@@ -37,6 +42,7 @@ permalink: /examples/
 </div>
 {% endif %}
 <div class="examples-card-prompt">{{ item.prompt | markdownify }}</div>
+</div>
 <a href="{{ item.download_link }}"></a>
 </div>
 {% endfor %}
