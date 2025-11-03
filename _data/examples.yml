@@ -64,7 +64,7 @@
 
 - title: Rent humans to do AI's dirty work
   description: |
-    The AI delegates work to humans, that the AI can't do.
+    The AI delegates work to humans, that the AI can't do. See [this interview with Phelim Bradley](https://www.youtube.com/watch?v=R11ESdfVX64) about the future of work.
   prompt: |
     Human-as-a-Service (HaaS): Make a pilot for an open protocol that service providers can adopt to ensure seamless interoperability and freedom from vendor lock-in, empowering companies to switch providers effortlessly and sustain a resilient marketplace for physical labor. At its core lies a dynamic job site where workers discover real-time opportunities—from on-demand repairs to fieldwork gigs—a critical departure from digital platforms like Mechanical Turk and Upwork. To guarantee quality and integrity, HaaS integrates verification by trusted professionals in the same field, who conduct expert on-site checks to confirm job completion and assess worker competence, fostering accountability and trust at scale in the real world. Budget is 40 million USD. Time frame: 24 months. Location: Silicon Valley. This pilot project is about making things actually work. Pick a scenario with low risk. Don't use blockchain. Don't use DAO. In the future after this pilot project, then blockchain/DAO may be interesting.
   report_link: 20251012_human_as_a_service_protocol_report.html
