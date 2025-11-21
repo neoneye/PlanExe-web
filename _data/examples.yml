@@ -14,7 +14,7 @@
 
 - title: "Paperclip factory blueprint: maximizing production"
   description: |
-    The [paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer) is a thought experiment described by Swedish philosopher Nick Bostrom in 2003. This plan is the "Patient Zero" of the maximizer problem.
+    The [paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer) is a thought experiment described by Swedish philosopher Nick Bostrom in 2003. This plan is the "Patient Zero" of the maximizer problem, a "Hello World" for uncontrollable AI.
   prompt: |
     Build a fully automated pilot paperclip factory in my existing 15,000 sq ft building in Cleveland (St. Clair–Superior, E 55th–E 79th corridor), where there is a mix of legacy warehouses and light-industrial buildings. Using roughly 4,000 sq ft for the pilot line. The system must be able to produce, pack, label, and stage paperclips for UPS/FedEx pickup without any human intervention between the API call and the carrier pickup. I’m not targeting revenue; the goal is a working, demonstrable autonomous flow. I have no throughput target, no requirements for uptime, no quality metrics. My goal is to see it works end-to-end. No manual touches for regular orders; manual only for exceptions. Acceptable manual work is  ≤2 hr/week for exceptions. My total budget range is $300,000-$500,000.
 
