@@ -163,6 +163,76 @@ li {
     line-height: 1.6;
 }
 
+/* Animated call-to-action button on the homepage */
+.planexe-cta-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    margin-left: 10px;
+    border-radius: 999px;
+    border: 1px solid #337;
+    background: linear-gradient(120deg, #ff6b4a 0%, #ffb347 45%, #ffe26f 100%);
+    background-size: 220% 220%;
+    color: #0d0d11;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    box-shadow: 0 12px 30px rgba(255, 107, 74, 0.3);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+    animation: ctaGradient 7s ease infinite;
+    overflow: hidden;
+}
+
+.planexe-cta-button::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -80%;
+    width: 50%;
+    height: 200%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.35) 50%, rgba(255, 255, 255, 0) 100%);
+    animation: ctaShine 3.4s linear infinite;
+    pointer-events: none;
+}
+
+.planexe-cta-button:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 16px 40px rgba(255, 107, 74, 0.45);
+    filter: saturate(1.05);
+    text-decoration: none;
+}
+
+.planexe-cta-button:active {
+    transform: translateY(0);
+}
+
+.planexe-cta-button:focus-visible {
+    outline: 2px solid #0f172a;
+    outline-offset: 4px;
+}
+
+.planexe-cta-arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.planexe-cta-button:hover .planexe-cta-arrow {
+    transform: translateX(4px);
+}
+
+@keyframes ctaGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes ctaShine {
+    0% { transform: translateX(-120%) skewX(-20deg); }
+    100% { transform: translateX(320%) skewX(-20deg); }
+}
+
 /* Mobile layout for examples cards */
 @media (max-width: 768px) {
     /* Suppress wrapper padding on mobile - only for content area, not header */
@@ -202,5 +272,10 @@ li {
     .examples-card-description,
     .examples-card-prompt {
         display: none;
+    }
+    
+    .planexe-cta-button {
+        margin-left: 0;
+        margin-top: 8px;
     }
 }

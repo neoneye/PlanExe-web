@@ -24,7 +24,7 @@ title: Homepage of PlanExe
 
 ## How to use it
 
-- If you are not a developer. [Try it here](https://app.mach-ai.com/planexe_early_access).
+- If you are not a developer. <a class="planexe-cta-button" href="https://app.mach-ai.com/planexe_early_access">Try PlanExe live <span class="planexe-cta-arrow">→</span></a>
 - If you are a developer, you can install PlanExe on your own computer.
 
 ## Example plan
