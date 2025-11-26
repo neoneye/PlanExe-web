@@ -1,23 +1,30 @@
+/* Outer wrapper to add border and rounding */
+.examples-card-wrapper {
+    border: 1px solid #cdcdcd;
+    border-radius: 23px;
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: border-color 0.2s ease-in-out;
+}
+
 /* Styles for the overall card container */
 .examples-card {
-    border-top: none;
-    border-bottom: 1px solid #cdcdcd;
-    border-left: none;
-    border-right: none;
     padding: 20px;
-    margin-bottom: 0; /* No margin needed since border creates spacing */
-    border-radius: 0;
+    margin: 0;
     background-color: white;
     position: relative; /* Make it a positioning context for the stretched link */
-    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
     display: flex;
     gap: 20px;
 }
 
-/* Add top border to first card */
-.examples-card:first-child,
-.examples-card:first-of-type {
-    border-top: 1px solid #cdcdcd !important;
+.examples-card + .examples-card {
+    border-top: 1px solid #cdcdcd;
+}
+
+.examples-card-wrapper:hover {
+    border-color: #bfbfbf;
 }
 
 /* Add a hover effect to the entire card */
@@ -148,7 +155,7 @@
 }
 
 /* Ensure examples cards don't get double padding */
-.post-content .examples-card {
+.post-content .examples-card-wrapper {
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -235,6 +242,15 @@ li {
 
 /* Mobile layout for examples cards */
 @media (max-width: 768px) {
+    /* Keep only top/bottom border on mobile; remove sides and rounding */
+    .examples-card-wrapper {
+        border-top: 1px solid #cdcdcd;
+        border-bottom: 1px solid #cdcdcd;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+    }
+    
     /* Suppress wrapper padding on mobile - only for content area, not header */
     .page-content .wrapper {
         padding: 0 !important;

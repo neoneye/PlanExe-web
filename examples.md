@@ -11,6 +11,7 @@ permalink: /examples/
 </div>
 </header>
 
+<div class="examples-card-wrapper">
 {% for item in site.data.examples %}
 <div class="examples-card">
 {% if item.thumbnail %}
@@ -30,3 +31,4 @@ permalink: /examples/
 <a class="examples-card-arrow-link" href="../{{ item.report_link }}"></a>
 </div>
 {% endfor %}
+</div>

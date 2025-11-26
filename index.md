@@ -29,6 +29,7 @@ title: Homepage of PlanExe
 
 ## Example plan
 
+<div class="examples-card-wrapper">
 {% for item in site.data.examples %}
 {% if item.featured %}
 <div class="examples-card">
@@ -50,6 +51,7 @@ title: Homepage of PlanExe
 </div>
 {% endif %}
 {% endfor %}
+</div>
 
 ## Get involved
 
